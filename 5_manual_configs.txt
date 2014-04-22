@@ -1,0 +1,20 @@
+Finish the installation by doing this things manually:
+
+ * Configure ssh access:
+   edit /etc/ssh/sshd_config with
+      PermitRootLogin no
+      AllowUsers fisa invitado
+   then restart the ssh service
+ * Allow user invitado to run the shared tmux on read-only mode, without asking for password:
+   edit the sudoers file with sudo visudo, add:
+      invitado ALL=NOPASSWD: /usr/bin/tmux -2 -S /tmp/shared_tmux attach -r
+ * Add to startup applications:
+   * /home/fisa/scripts/start_conky
+ * Install gnome shell extensions listed in gnome-shell-extensions.rst
+ * Configure settings for:
+   * Gnome (wallpaper, themes, fonts, window buttons, behaviour, favorite apps, some of them from gnome tweak tool)
+   * Gnome-terminal (colors, font, menu bar, initial command)
+   * Kupfer (plugins, theme, data sources)
+   * Gnome-shell extensions
+   * Chrome/firefox (user/sync)
+   * User (avatar)
