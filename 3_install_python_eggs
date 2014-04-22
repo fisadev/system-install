@@ -1,0 +1,45 @@
+#!/bin/bash
+sudo pip install \
+    django \
+    dbgp \
+    vim-debug \
+    mercurial_keyring \
+    jinja2 \
+    gunicorn \
+    virtualenv \
+    nose \
+    coverage \
+    virtualenvwrapper \
+    ipython \
+    pep8 \
+    flake8 \
+    nose-progressive \
+    httpie \
+    blessings \
+    ipdb \
+    sh \
+    requests \
+    termcolor \
+    python-Levenshtein \
+    fabric \
+    distribute \
+    supervisor \
+    bunch \
+    mechanize \
+    sphinx \
+    lice \
+    progressbar \
+    bottle \
+    pydot \
+    ffind \
+    vanity \
+    pudb \
+    flask \
+    pyparsing==1.5.7 \
+    pandas \
+    pyquery \
+    butterfly \
+    tldr \
+    ngxtop \
+    isort \
+    importd
