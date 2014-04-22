@@ -1,0 +1,118 @@
+#!/bin/bash
+sudo apt-get install -y \
+    python-pip \
+    git \
+    git-core \
+    git-gui \
+    git-doc \
+    qgit \
+    gitk \
+    tig \
+    mercurial \
+    subversion \
+    tk \
+    hgview \
+    gource \
+    zsh \
+    screen \
+    openssh-server \
+    vim \
+    vim-gnome \
+    bpython \
+    winpdb \
+    exuberant-ctags \
+    vlc \
+    minitube \
+    cheese \
+    pinta \
+    kupfer \
+    gparted \
+    gdmap \
+    htop \
+    iotop \
+    conky \
+    ubuntu-restricted-extras \
+    virtualbox \
+    weechat \
+    gtkvncviewer \
+    x11vnc \
+    sqlitebrowser \
+    meld \
+    ppa-purge \
+    tmux \
+    nethogs \
+    p7zip \
+    build-essential \
+    python-gdata \
+    imagemagick \
+    tree \
+    python-dev \
+    python-numpy \
+    python-scipy \
+    python-sklearn \
+    python-matplotlib \
+    easytag \
+    rst2pdf \
+    impressive \
+    postgresql-9.3 \
+    postgresql-server-dev-9.3 \
+    inkscape \
+    gimp \
+    run-one \
+    nocache \
+    ack-grep \
+    curl \
+    libnet-dbus-perl \
+    gir1.2-gtop-2.0 \
+    gir1.2-networkmanager-1.0 \
+    gtk2-engines-murrine \
+    gtk3-engines-unico \
+    clementine \
+    gnome-shell \
+    gnome-tweak-tool \
+    exaile \
+    evolution \
+    cmatrix \
+    ptop \
+    nfs-common \
+    cmus \
+    fdupes \
+    nginx \
+    graphviz \
+    numix-gtk-theme \
+    numix-icon-theme-utouch \
+    gnome-shell-theme-elegance-colors \
+    firefox-trunk \
+    aria2 \
+    ttyrec \
+    gitg \
+    audio-recorder \
+    offlineimap
+
+# install hangouts plugin
+wget https://dl.google.com/linux/direct/google-talkplugin_current_amd64.deb
+sudo dpkg -i google-talkplugin_current_amd64.deb
+rm google-talkplugin_current_amd64.deb
+
+# download chrome from google web site
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+rm google-chrome-stable_current_amd64.deb
+
+# update repos and install missing dependencies
+sudo apt-get update
+sudo apt-get install -f -y
+
+# not using because problems in my current version, but want to use:
+#    hope-gtk-theme \
+#    elegant-brit-gtk-theme \
+#    google-chrome-unstable \
+#    gnome-shell-theme-* \
+#    faenza-icon-theme \
+#    faience-theme \
+#    faience-icon-theme \
+#    gnome-cupertino-gtk-theme \
+#    mediterraneannight-gtk-theme \
+#    nitruxos \
+#    moka-icon-theme-dark \
+#    moka-icon-theme \
