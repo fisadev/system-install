@@ -1,0 +1,3 @@
+#!/bin/bash
+# this works for my msi ge60 in ubuntu 14.04
+sudo apt-get install bumblebee bumblebee-nvidia primus nvidia-331
