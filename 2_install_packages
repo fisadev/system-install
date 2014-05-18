@@ -87,6 +87,8 @@ sudo apt-get install -y \
     ttyrec \
     gitg \
     audio-recorder \
+    bitcoin-qt \
+    bitcoind \
     offlineimap
 
 # install hangouts plugin
