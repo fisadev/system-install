@@ -67,7 +67,6 @@ sudo apt-get install -y \
     gir1.2-networkmanager-1.0 \
     gtk2-engines-murrine \
     gtk3-engines-unico \
-    clementine \
     gnome-shell \
     gnome-tweak-tool \
     exaile \
