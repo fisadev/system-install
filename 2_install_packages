@@ -60,6 +60,7 @@ sudo apt-get install -y \
     gimp \
     run-one \
     nocache \
+    expect-dev \
     ack-grep \
     curl \
     libnet-dbus-perl \
