@@ -7,6 +7,7 @@ Finish the installation by doing this things manually:
    then restart the ssh service
  * Allow user invitado to run the shared tmux on read-only mode, without asking for password:
    edit the sudoers file with sudo visudo, add:
+      Defaults insults
       invitado ALL=NOPASSWD: /usr/bin/tmux -2 -S /tmp/shared_tmux attach -r
  * Add to startup applications:
    * /home/fisa/scripts/start_conky
