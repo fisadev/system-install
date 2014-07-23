@@ -14,6 +14,7 @@ https://extensions.gnome.org/extension/701/top-panel-workspace-scroll/
 https://extensions.gnome.org/extension/708/panel-osd/
 https://extensions.gnome.org/extension/732/message-tray-on-bottom-right-corner/
 https://extensions.gnome.org/extension/477/toggle-terminal/
+https://extensions.gnome.org/extension/850/place-windows-in-center/
 
 not working but want to use
 https://extensions.gnome.org/extension/121/gcalcsearch/
