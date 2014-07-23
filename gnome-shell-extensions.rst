@@ -15,6 +15,7 @@ https://extensions.gnome.org/extension/708/panel-osd/
 https://extensions.gnome.org/extension/732/message-tray-on-bottom-right-corner/
 https://extensions.gnome.org/extension/477/toggle-terminal/
 https://extensions.gnome.org/extension/850/place-windows-in-center/
+https://extensions.gnome.org/extension/843/bumblebee-indicator/
 
 not working but want to use
 https://extensions.gnome.org/extension/121/gcalcsearch/
