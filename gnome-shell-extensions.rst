@@ -16,13 +16,13 @@ https://extensions.gnome.org/extension/732/message-tray-on-bottom-right-corner/
 https://extensions.gnome.org/extension/477/toggle-terminal/
 https://extensions.gnome.org/extension/850/place-windows-in-center/
 https://extensions.gnome.org/extension/843/bumblebee-indicator/
+https://extensions.gnome.org/extension/817/battery-status/
 
 not working but want to use
 https://extensions.gnome.org/extension/121/gcalcsearch/
 https://extensions.gnome.org/extension/416/applications-overview-tooltip/
 https://extensions.gnome.org/extension/562/window-search-provider/
 https://extensions.gnome.org/extension/502/eye/
-https://extensions.gnome.org/extension/230/battery-remaining-time/
 https://extensions.gnome.org/extension/572/customclock/
 
 using but not need to install because they are magically present in ubuntu 14.04 (just activate them from tweak tool): 
