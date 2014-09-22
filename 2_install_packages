@@ -90,6 +90,7 @@ sudo apt-get install -y \
     bitcoin-qt \
     bitcoind \
     gnupg \
+    nodejs
     offlineimap
 
 # install hangouts plugin
