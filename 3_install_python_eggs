@@ -43,4 +43,5 @@ sudo pip install \
     tldr \
     ngxtop \
     isort \
+    Glances \
     importd
