@@ -17,6 +17,7 @@ https://extensions.gnome.org/extension/477/toggle-terminal/
 https://extensions.gnome.org/extension/850/place-windows-in-center/
 https://extensions.gnome.org/extension/843/bumblebee-indicator/
 https://extensions.gnome.org/extension/817/battery-status/
+https://extensions.gnome.org/extension/650/shade-inactive-windows/
 
 not working but want to use
 https://extensions.gnome.org/extension/121/gcalcsearch/
