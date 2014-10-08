@@ -44,4 +44,5 @@ sudo pip install \
     ngxtop \
     isort \
     Glances \
+    percol \
     importd
