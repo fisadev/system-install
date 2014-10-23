@@ -70,6 +70,8 @@ sudo apt-get install -y \
     gtk3-engines-unico \
     gnome-shell \
     gnome-tweak-tool \
+    gnome-maps \
+    gnome-documents \
     exaile \
     evolution \
     cmatrix \
