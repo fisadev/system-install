@@ -45,4 +45,5 @@ sudo pip install \
     isort \
     Glances \
     percol \
+    speedtest-cli \
     importd
