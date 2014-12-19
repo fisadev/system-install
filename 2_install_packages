@@ -94,6 +94,7 @@ sudo apt-get install -y \
     nodejs \
     xbindkeys \
     xautomation \
+    youtube-dl \
     offlineimap
 
 # install hangouts plugin
