@@ -46,4 +46,5 @@ sudo pip install \
     Glances \
     percol \
     speedtest-cli \
+    pgcli \
     importd
