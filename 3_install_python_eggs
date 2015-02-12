@@ -47,4 +47,5 @@ sudo pip install \
     percol \
     speedtest-cli \
     pgcli \
+    fades \
     importd
