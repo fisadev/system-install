@@ -14,6 +14,10 @@ echo "audio recorder"
 sudo add-apt-repository -y ppa:osmoma/audio-recorder
 echo "official bitcoin client"
 sudo add-apt-repository -y ppa:bitcoin/bitcoin
+echo "ultraflat icons"
+sudo add-apt-repository -y ppa:noobslab/icons
+echo "evolvere icons"
+sudo add-apt-repository -y ppa:noobslab/evolvere
 
 # not using because problems in my current version, but want to use:
 # echo "faenza icons and faience themes" 
