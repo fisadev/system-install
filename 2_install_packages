@@ -99,6 +99,7 @@ sudo apt-get install -y \
     xautomation \
     youtube-dl \
     vinagre \
+    onionshare \
     offlineimap
 
 # install hangouts plugin
