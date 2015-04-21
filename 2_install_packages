@@ -101,6 +101,8 @@ sudo apt-get install -y \
     vinagre \
     onionshare \
     pastebinit \
+    neovim \
+    xclip \
     offlineimap
 
 # install hangouts plugin
