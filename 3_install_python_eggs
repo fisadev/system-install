@@ -48,4 +48,5 @@ sudo pip install \
     speedtest-cli \
     pgcli \
     fades \
+    tweepy \
     importd
