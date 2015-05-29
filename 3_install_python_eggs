@@ -49,4 +49,6 @@ sudo pip install \
     pgcli \
     fades \
     tweepy \
+    eg \
+    whatever \
     importd
