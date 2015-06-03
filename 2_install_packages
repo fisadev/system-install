@@ -34,7 +34,6 @@ sudo apt-get install -y \
     ubuntu-restricted-extras \
     virtualbox \
     weechat \
-    gtkvncviewer \
     x11vnc \
     sqlitebrowser \
     meld \
@@ -54,8 +53,8 @@ sudo apt-get install -y \
     easytag \
     rst2pdf \
     impressive \
-    postgresql-9.3 \
-    postgresql-server-dev-9.3 \
+    postgresql-9.4 \
+    postgresql-server-dev-9.4 \
     inkscape \
     gimp \
     run-one \
@@ -81,8 +80,6 @@ sudo apt-get install -y \
     fdupes \
     nginx \
     graphviz \
-    numix-gtk-theme \
-    numix-icon-theme-utouch \
     gnome-shell-theme-elegance-colors \
     ultra-flat-icons \
     ultra-flat-icons-orange \
@@ -96,6 +93,7 @@ sudo apt-get install -y \
     bitcoind \
     gnupg \
     nodejs \
+    npm \
     xbindkeys \
     xautomation \
     youtube-dl \
@@ -134,3 +132,6 @@ sudo apt-get install -f -y
 #    nitruxos \
 #    moka-icon-theme-dark \
 #    moka-icon-theme \
+#    numix-gtk-theme \
+#    numix-icon-theme-utouch \
+#    gtkvncviewer \
