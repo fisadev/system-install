@@ -47,8 +47,10 @@ sudo pip install \
     percol \
     speedtest-cli \
     pgcli \
-    fades \
     tweepy \
     eg \
     whatever \
     importd
+
+# not using because problems in my current version, but want to use:
+    # fades \
