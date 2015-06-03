@@ -104,6 +104,7 @@ sudo apt-get install -y \
     pastebinit \
     neovim \
     xclip \
+    unetbootin \
     offlineimap
 
 # install hangouts plugin
