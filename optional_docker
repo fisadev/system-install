@@ -1,0 +1,4 @@
+# install docker 
+wget -qO- https://get.docker.com/ | sh 
+# add user to the docker group
+sudo usermod -aG docker fisa
