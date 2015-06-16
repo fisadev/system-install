@@ -85,6 +85,7 @@ sudo apt-get install -y \
     ultra-flat-icons \
     ultra-flat-icons-orange \
     evolvere-icon-suite \
+    arc-theme \
     firefox-trunk \
     aria2 \
     ttyrec \

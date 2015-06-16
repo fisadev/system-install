@@ -22,6 +22,11 @@ echo "onionshare"
 sudo add-apt-repository -y ppa:micahflee/ppa
 echo "neovim"
 sudo add-apt-repository -y ppa:neovim-ppa/unstable
+echo "Arc theme"
+sudo sh -c "echo 'deb http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_15.04/ /' >> /etc/apt/sources.list.d/arc-theme.list"
+wget http://download.opensuse.org/repositories/home:Horst3180/xUbuntu_15.04/Release.key
+sudo apt-key add - < Release.key
+rm Release.key
 
 # not using because problems in my current version, but want to use:
 # echo "faenza icons and faience themes" 
