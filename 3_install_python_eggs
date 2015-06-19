@@ -50,6 +50,7 @@ sudo pip install \
     tweepy \
     eg \
     whatever \
+    pythonpy \
     importd
 
 # not using because problems in my current version, but want to use:
