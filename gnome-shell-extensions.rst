@@ -9,9 +9,10 @@ https://extensions.gnome.org/extension/584/taskbar/
 https://extensions.gnome.org/extension/517/caffeine/
 https://extensions.gnome.org/extension/843/bumblebee-indicator/
 https://extensions.gnome.org/extension/817/battery-status/
+https://extensions.gnome.org/extension/905/refresh-wifi-connections/
+https://extensions.gnome.org/extension/891/windows-blur-effects/
 
 not working but want to use
-https://extensions.gnome.org/extension/650/shade-inactive-windows/
 https://extensions.gnome.org/extension/496/show-desktop-from-overview/
 https://extensions.gnome.org/extension/41/permanent-notifications/
 https://extensions.gnome.org/extension/562/window-search-provider/
