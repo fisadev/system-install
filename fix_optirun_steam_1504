@@ -1,4 +1,5 @@
 #!/bin/bash
+# Script created by github user BogdanOlar, under this issue: https://github.com/ValveSoftware/steam-for-linux/issues/3506
 
 # create a temporary directory
 mkdir SteamFixTempDir
