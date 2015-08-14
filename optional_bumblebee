@@ -6,3 +6,6 @@ sudo apt-get install bumblebee bumblebee-nvidia primus nvidia-346
 echo "DONT FORGET to update your /etc/bumblebee/bumblebee.conf:"
 echo "On [bumblebeed], Driver=nvidia"
 echo "On [driver-nvidia], KernelDriver=nvidia-346, and the paths pointing to nvidia-346"
+echo "Also, you should disable the gpu-manager, which can cause blank screens on boot."
+echo "Edit /etc/init/gpu-manager.conf and comment the lines that look like this:"
+echo "#start on (starting lightdm or ....)
