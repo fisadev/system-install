@@ -11,6 +11,7 @@ https://extensions.gnome.org/extension/843/bumblebee-indicator/
 https://extensions.gnome.org/extension/817/battery-status/
 https://extensions.gnome.org/extension/905/refresh-wifi-connections/
 https://extensions.gnome.org/extension/891/windows-blur-effects/
+https://extensions.gnome.org/extension/906/sound-output-device-chooser/
 
 not working but want to use
 https://extensions.gnome.org/extension/496/show-desktop-from-overview/
