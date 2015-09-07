@@ -51,6 +51,7 @@ sudo pip install \
     eg \
     whatever \
     pythonpy \
+    glances \
     importd
 
 # not using because problems in my current version, but want to use:
