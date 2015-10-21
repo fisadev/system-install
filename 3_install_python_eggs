@@ -53,6 +53,7 @@ sudo pip install \
     pythonpy \
     glances \
     ohmu \
+    pinggraph \
     importd
 
 # not using because problems in my current version, but want to use:
