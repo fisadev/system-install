@@ -13,6 +13,7 @@ https://extensions.gnome.org/extension/905/refresh-wifi-connections/
 https://extensions.gnome.org/extension/891/windows-blur-effects/
 https://extensions.gnome.org/extension/906/sound-output-device-chooser/
 https://extensions.gnome.org/extension/973/switcher/
+https://extensions.gnome.org/extension/120/system-monitor/
 
 not working but want to use
 https://extensions.gnome.org/extension/496/show-desktop-from-overview/
