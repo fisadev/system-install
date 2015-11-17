@@ -103,6 +103,7 @@ sudo apt-get install -y \
     xclip \
     unetbootin \
     jq \
+    mesa-utils \
     offlineimap
 
 # install hangouts plugin
