@@ -84,13 +84,10 @@ sudo apt-get install -y \
     gnome-shell-theme-elegance-colors \
     ultra-flat-icons \
     ultra-flat-icons-orange \
-    evolvere-icon-suite \
     arc-theme \
-    firefox-trunk \
     aria2 \
     ttyrec \
     gitg \
-    audio-recorder \
     bitcoin-qt \
     bitcoind \
     gnupg \
@@ -123,6 +120,7 @@ sudo apt-get update
 sudo apt-get install -f -y
 
 # not using because problems in my current version, but want to use:
+# removed at 15.04
 #    hope-gtk-theme \
 #    elegant-brit-gtk-theme \
 #    google-chrome-unstable \
@@ -138,3 +136,7 @@ sudo apt-get install -f -y
 #    numix-gtk-theme \
 #    numix-icon-theme-utouch \
 #    gtkvncviewer \
+# removed at 15.10
+#    evolvere-icon-suite \
+#    firefox-trunk \
+#    audio-recorder \
