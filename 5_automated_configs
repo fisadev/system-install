@@ -31,14 +31,8 @@ echo " >>>> SSH KEY"
 ssh-add /home/fisa/.ssh/fisa_rsa_2
 
 # gtk2 windows buttons to the right 
-# TODO working??
+# TODO working?? seems to break on the current versions of gnome
 # gconftool-2 --set /apps/metacity/general/button_layout --type string ":minimize,maximize,close"
-
-# disable scrollbars overlay so the Arc theme doesn't break
-gsettings set com.canonical.desktop.interface scrollbar-mode normal
-
-# q tool executable
-sudo ln -s /home/fisa/devel/q/q /usr/bin/q
 
 # enable apt progress bar
 echo 'Dpkg::Progress-Fancy "1";' | sudo tee /etc/apt/apt.conf.d/99progressbar
