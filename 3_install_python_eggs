@@ -43,7 +43,6 @@ sudo pip install \
     tldr \
     ngxtop \
     isort \
-    Glances \
     percol \
     speedtest-cli \
     pgcli \
