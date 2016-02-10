@@ -28,6 +28,8 @@ Try each button, and write down the button number for later use. On my last test
 * 16 = dpi up
 * 17 = dpi down
 
+These same keys can be used to customize macros on your .xbindkeys file.
+
 On this line, you must update the mouse name with the name you got from ``xinput list``:
 
     MatchProduct "Mad Catz Mad Catz R.A.T.7 Mouse"
