@@ -105,6 +105,7 @@ sudo apt-get install -y \
     unetbootin \
     jq \
     mesa-utils \
+    zeal \
     offlineimap
 
 # install hangouts plugin
