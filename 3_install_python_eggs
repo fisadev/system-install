@@ -11,6 +11,7 @@ sudo pip install \
     coverage \
     virtualenvwrapper \
     ipython \
+    nbconvert \
     pep8 \
     flake8 \
     nose-progressive \
