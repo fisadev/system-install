@@ -1,7 +1,5 @@
 #!/bin/bash
 # currently using:
-echo "firefox nightly"
-sudo add-apt-repository -y ppa:ubuntu-mozilla-daily/ppa
 echo "gnome3 and gnome-shell themes"
 sudo add-apt-repository -y ppa:webupd8team/themes
 echo "elegance and numix gtk themes"
@@ -33,5 +31,3 @@ echo "nitrux themes"
 sudo add-apt-repository -y ppa:upubuntu-com/nitrux
 echo "offline documentation tool"
 sudo add-apt-repository -y ppa:zeal-developers/ppa
-
-# not using because problems in my current version, but want to use:
