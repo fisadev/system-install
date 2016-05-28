@@ -31,6 +31,7 @@ sudo apt-get install -y \
     htop \
     iotop \
     conky \
+    conky-all \
     ubuntu-restricted-extras \
     virtualbox \
     weechat \
