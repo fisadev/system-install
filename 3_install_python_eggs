@@ -23,7 +23,6 @@ sudo pip install \
     termcolor \
     python-Levenshtein \
     fabric \
-    distribute \
     supervisor \
     bunch \
     mechanize \
@@ -58,3 +57,4 @@ sudo pip install \
 
 # not using because problems in my current version, but want to use:
     # fades \
+    # distribute \
