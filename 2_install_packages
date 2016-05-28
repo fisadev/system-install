@@ -13,6 +13,7 @@ sudo apt-get install -y \
     hgview \
     gource \
     zsh \
+    fish \
     screen \
     openssh-server \
     vim \
@@ -55,8 +56,8 @@ sudo apt-get install -y \
     easytag \
     rst2pdf \
     impressive \
-    postgresql-9.4 \
-    postgresql-server-dev-9.4 \
+    postgresql-9.5 \
+    postgresql-server-dev-9.5 \
     inkscape \
     gimp \
     run-one \
@@ -72,7 +73,6 @@ sudo apt-get install -y \
     gnome-shell \
     gnome-tweak-tool \
     gnome-maps \
-    exaile \
     evolution \
     cmatrix \
     tdfsb \
@@ -82,7 +82,6 @@ sudo apt-get install -y \
     fdupes \
     nginx \
     graphviz \
-    gnome-shell-theme-elegance-colors \
     ultra-flat-icons \
     ultra-flat-icons-orange \
     arc-theme \
@@ -143,3 +142,6 @@ sudo apt-get install -f -y
 #    evolvere-icon-suite \
 #    firefox-trunk \
 #    audio-recorder \
+# removed at 16.04
+#    exaile \
+#    gnome-shell-theme-elegance-colors \
