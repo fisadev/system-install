@@ -106,6 +106,7 @@ sudo apt-get install -y \
     jq \
     mesa-utils \
     zeal \
+    isync \
     offlineimap
 
 # install hangouts plugin
