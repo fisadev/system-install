@@ -106,6 +106,7 @@ sudo apt-get install -y \
     jq \
     mesa-utils \
     zeal \
+    chrome-gnome-shell \
     isync \
     offlineimap
 

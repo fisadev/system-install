@@ -31,3 +31,5 @@ echo "nitrux themes"
 sudo add-apt-repository -y ppa:upubuntu-com/nitrux
 echo "offline documentation tool"
 sudo add-apt-repository -y ppa:zeal-developers/ppa
+echo "chrome gnome shell integration connector"
+sudo add-apt-repository -y ppa:ne0sight/chrome-gnome-shell
