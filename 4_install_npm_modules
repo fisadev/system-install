@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo npm install -g keybase-installer
 sudo ln -s /usr/bin/nodejs /usr/bin/node
-
+sudo npm install -g emoj
+sudo npm install -g keybase-installer
 sudo keybase-installer
