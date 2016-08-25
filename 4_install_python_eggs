@@ -1,60 +1,36 @@
 #!/bin/bash
 sudo pip install \
-    django \
-    dbgp \
-    vim-debug \
-    mercurial_keyring \
-    jinja2 \
-    gunicorn \
     virtualenv \
-    nose \
-    coverage \
     virtualenvwrapper \
-    ipython \
+    ipython[notebook] \
     nbconvert \
     pep8 \
     flake8 \
-    nose-progressive \
     httpie \
-    blessings \
     ipdb \
-    sh \
     requests \
-    termcolor \
-    python-Levenshtein \
-    fabric \
     supervisor \
     bunch \
-    mechanize \
     sphinx \
     lice \
-    progressbar \
-    bottle \
     pydot \
     ffind \
     vanity \
     pudb \
-    wdb \
     flask \
     pyparsing==1.5.7 \
     pandas \
     pyquery \
     butterfly \
-    tldr \
     ngxtop \
     isort \
     percol \
     speedtest-cli \
     pgcli \
-    tweepy \
     eg \
     whatever \
     pythonpy \
     glances \
     ohmu \
     pinggraph \
-    importd
-
-# not using because problems in my current version, but want to use:
-    # fades \
-    # distribute \
+    fades
