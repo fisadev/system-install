@@ -29,11 +29,3 @@ createdb fisa
 # add my ssh key
 echo " >>>> SSH KEY"
 ssh-add /home/fisa/.ssh/fisa_rsa_2
-
-# gtk2 windows buttons to the right 
-# TODO working?? seems to break on the current versions of gnome
-# gconftool-2 --set /apps/metacity/general/button_layout --type string ":minimize,maximize,close"
-
-# enable apt progress bar
-echo 'Dpkg::Progress-Fancy "1";' | sudo tee /etc/apt/apt.conf.d/99progressbar
-
