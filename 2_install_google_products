@@ -1,0 +1,13 @@
+# install hangouts plugin
+wget https://dl.google.com/linux/direct/google-talkplugin_current_amd64.deb
+sudo dpkg -i google-talkplugin_current_amd64.deb
+rm google-talkplugin_current_amd64.deb
+
+# download chrome from google web site
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+rm google-chrome-stable_current_amd64.deb
+
+# update repos and install missing dependencies
+sudo apt-get update
+sudo apt-get install -f -y
