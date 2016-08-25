@@ -10,8 +10,6 @@ echo "newer gnome3"
 sudo add-apt-repository -y ppa:gnome3-team/gnome3
 echo "audio recorder"
 sudo add-apt-repository -y ppa:osmoma/audio-recorder
-echo "official bitcoin client"
-sudo add-apt-repository -y ppa:bitcoin/bitcoin
 echo "ultraflat icons"
 sudo add-apt-repository -y ppa:noobslab/icons
 echo "evolvere icons"
