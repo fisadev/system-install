@@ -8,7 +8,6 @@ sudo apt-get install -y \
     gitk \
     tig \
     mercurial \
-    subversion \
     tk \
     hgview \
     gource \
@@ -50,10 +49,6 @@ sudo apt-get install -y \
     python-dev \
     python3-dev \
     python3-venv \
-    python-numpy \
-    python-scipy \
-    python-sklearn \
-    python-matplotlib \
     easytag \
     rst2pdf \
     impressive \
@@ -77,7 +72,7 @@ sudo apt-get install -y \
     evolution \
     cmatrix \
     tdfsb \
-    ptop \
+    pgtop \
     nfs-common \
     cmus \
     fdupes \
@@ -108,8 +103,7 @@ sudo apt-get install -y \
     mesa-utils \
     zeal \
     chrome-gnome-shell \
-    isync \
-    offlineimap
+    isync
 
 # not using because problems in my current version, but want to use:
 # removed at 15.04
