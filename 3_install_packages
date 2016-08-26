@@ -103,6 +103,7 @@ sudo apt-get install -y \
     mesa-utils \
     zeal \
     chrome-gnome-shell \
+    lightdm-gtk-greeter-settings \
     isync
 
 # not using because problems in my current version, but want to use:
