@@ -13,6 +13,7 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 rm -f keybase_amd64.deb
 curl -O https://prerelease.keybase.io/keybase_amd64.deb
 sudo dpkg -i keybase_amd64.deb
+run_keybase
 
 # update repos and install missing dependencies
 sudo apt-get update
