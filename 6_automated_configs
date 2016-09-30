@@ -32,3 +32,9 @@ ssh-add /home/fisa/.ssh/fisa_ssh_3
 
 # add local bin path to fish
 set -U fish_user_paths /home/fisa/.local/bin $fish_user_paths
+
+# add syncthing service
+mkdir -p /home/fisa/.config/systemd/user
+cp /home/fisa/devel/syncthing/etc/linux-systemd/user/syncthing.service /home/fisa/.config/systemd/user
+systemctl enable syncthing@fisa.service
+systemctl start syncthing@fisa.service
