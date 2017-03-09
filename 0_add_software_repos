@@ -1,32 +1,13 @@
 #!/bin/bash
 # currently using:
-echo "gnome3 and gnome-shell themes"
-sudo add-apt-repository -y ppa:webupd8team/themes
-echo "elegance and numix gtk themes"
-sudo add-apt-repository -y ppa:satyajit-happy/themes
 echo "numix icon themes"
 sudo add-apt-repository -y ppa:numix/ppa
-echo "newer gnome3"
-sudo add-apt-repository -y ppa:gnome3-team/gnome3
-echo "audio recorder"
-sudo add-apt-repository -y ppa:osmoma/audio-recorder
 echo "ultraflat icons"
 sudo add-apt-repository -y ppa:noobslab/icons
-echo "evolvere icons"
-sudo add-apt-repository -y ppa:noobslab/evolvere
 echo "onionshare"
 sudo add-apt-repository -y ppa:micahflee/ppa
 echo "neovim"
-sudo add-apt-repository -y ppa:neovim-ppa/unstable
-echo "Arc theme"
-sudo sh -c "echo 'deb http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_15.04/ /' >> /etc/apt/sources.list.d/arc-theme.list"
-wget http://download.opensuse.org/repositories/home:Horst3180/xUbuntu_15.04/Release.key
-sudo apt-key add - < Release.key
-rm Release.key
-echo "faenza icons and faience themes" 
-sudo add-apt-repository -y ppa:tiheum/equinox
-echo "nitrux themes"
-sudo add-apt-repository -y ppa:upubuntu-com/nitrux
+sudo add-apt-repository -y ppa:neovim-ppa/stable
 echo "several themes, including paper icon theme"
 sudo add-apt-repository -y ppa:snwh/pulp
 echo "offline documentation tool"
