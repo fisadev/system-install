@@ -2,7 +2,7 @@
 pip install \
     virtualenv \
     virtualenvwrapper \
-    ipython[notebook] \
+    jupyter[notebook] \
     nbconvert \
     pep8 \
     flake8 \
@@ -33,4 +33,5 @@ pip install \
     glances \
     ohmu \
     pinggraph \
+    pipenv \
     fades
