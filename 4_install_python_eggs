@@ -34,4 +34,6 @@ pip install \
     ohmu \
     pinggraph \
     pipenv \
+    pdir \
+    pprint \
     fades
