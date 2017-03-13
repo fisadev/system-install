@@ -99,6 +99,7 @@ sudo apt-get install -y \
     zeal \
     chrome-gnome-shell \
     kazam \
+    guvcview \
     lightdm-gtk-greeter-settings
 
 # not using because problems in my current version, but want to use:
