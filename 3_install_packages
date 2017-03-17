@@ -100,6 +100,7 @@ sudo apt-get install -y \
     chrome-gnome-shell \
     kazam \
     guvcview \
+    openshot \
     lightdm-gtk-greeter-settings
 
 # not using because problems in my current version, but want to use:
