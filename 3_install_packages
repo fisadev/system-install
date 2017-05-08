@@ -101,6 +101,7 @@ sudo apt-get install -y \
     kazam \
     guvcview \
     openshot \
+    stellarium \
     lightdm-gtk-greeter-settings
 
 # not using because problems in my current version, but want to use:
