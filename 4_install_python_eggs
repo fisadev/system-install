@@ -36,4 +36,5 @@ pip install \
     pipenv \
     pdir2 \
     pprint \
+    sh \
     fades
