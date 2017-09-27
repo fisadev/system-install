@@ -38,3 +38,6 @@ mkdir -p /home/fisa/.config/systemd/user
 cp /home/fisa/devel/syncthing/etc/linux-systemd/user/syncthing.service /home/fisa/.config/systemd/user
 systemctl enable syncthing@fisa.service
 systemctl start syncthing@fisa.service
+
+# add firefox devel icon
+ln -s /home/fisa/devel/mios/firefox-developer.desktop .local/share/applications/
