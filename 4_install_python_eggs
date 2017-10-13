@@ -37,4 +37,5 @@ pip install \
     pdir2 \
     pprint \
     sh \
+    magic-wormhole \
     fades
