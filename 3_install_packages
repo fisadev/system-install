@@ -102,6 +102,7 @@ sudo apt-get install -y \
     guvcview \
     openshot \
     stellarium \
+    openrazer-meta \
     lightdm-gtk-greeter-settings
 
 # not using because problems in my current version, but want to use:

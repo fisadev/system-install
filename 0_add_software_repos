@@ -16,6 +16,8 @@ echo "chrome gnome shell integration connector"
 sudo add-apt-repository -y ppa:ne0sight/chrome-gnome-shell
 echo "Stellarium"
 sudo add-apt-repository -y ppa:stellarium/stellarium-releases
+echo "Razer drivers"
+sudo add-apt-repository -y ppa:openrazer/stable
 echo "syncthing"
 curl -s https://syncthing.net/release-key.txt | sudo apt-key add -
 echo "deb http://apt.syncthing.net/ syncthing release" | sudo tee /etc/apt/sources.list.d/syncthing.list
