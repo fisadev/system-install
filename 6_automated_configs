@@ -41,3 +41,6 @@ systemctl start syncthing@fisa.service
 
 # add firefox devel icon
 ln -s /home/fisa/devel/mios/firefox-developer.desktop .local/share/applications/
+
+# make folders show first in open/save file dialogs
+gsettings set org.gtk.Settings.FileChooser sort-directories-first true
