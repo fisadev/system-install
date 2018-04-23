@@ -38,8 +38,17 @@ systemctl start syncthing@fisa.service
 # make folders show first in open/save file dialogs
 gsettings set org.gtk.Settings.FileChooser sort-directories-first true
 
+# fish configs
+mkdir -p /home/fisa/.config/fish/functions
+ln -s /home/fisa/devel/mios/dotfiles/config.fish /home/fisa/.config/fish/
+ln -s /home/fisa/devel/mios/dotfiles/fish_prompt.fish /home/fisa/.config/fish/functions/
+ln -s /home/fisa/devel/mios/dotfiles/fish_right_prompt.fish /home/fisa/.config/fish/functions/
+
 # neovim config installation
 echo ">>>> NEOVIM CONFIGS"
-mkdir .config/nvim
-ln -s /home/fisa/devel/fisa-nvim-config/init.vim .config/nvim/
+mkdir -p /home/fisa/.config/nvim
+ln -s /home/fisa/devel/fisa-nvim-config/init.vim /home/fisa/.config/nvim/
 nvim
+
+# argos gnome shell extension scripts
+ln -s /home/fisa/devel/mios/argos /home/fisa/.config/
