@@ -18,3 +18,4 @@ Finish the installation by doing this things manually:
    * User (avatar)
  * Install steam from the website, run it, install games (and remember to run it with primusrun)
  * Configure the compose key (gnome-tweak-tool, under keyboard and shortcuts)
+ * Migrate fish history from pre_update/.local/share/ to .local/share
