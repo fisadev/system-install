@@ -93,4 +93,9 @@ sudo apt install -y \
     guvcview \
     openshot \
     stellarium \
+    wine-stable \
     openrazer-meta
+
+# temporary workaround because ack-grep is no longer in ubuntu's repos:
+sudo apt install cpanminus
+sudo cpanm install App::Ack
