@@ -8,10 +8,6 @@ sudo crontab /home/fisa/devel/mios/dotfiles/crontab_su
 # my hosts
 cat /home/fisa/devel/mios/dotfiles/hosts | sudo tee -a /etc/hosts
 
-# configure vnc server
-echo " >>>> VNC PASSWORD"
-x11vnc -storepasswd 
-
 # create user invitado
 echo " >>>> INVITADO USER"
 sudo adduser invitado
@@ -38,9 +34,6 @@ mkdir -p /home/fisa/.config/systemd/user
 cp /home/fisa/devel/syncthing/etc/linux-systemd/user/syncthing.service /home/fisa/.config/systemd/user
 systemctl enable syncthing@fisa.service
 systemctl start syncthing@fisa.service
-
-# add firefox devel icon
-ln -s /home/fisa/devel/mios/firefox-developer.desktop .local/share/applications/
 
 # make folders show first in open/save file dialogs
 gsettings set org.gtk.Settings.FileChooser sort-directories-first true
