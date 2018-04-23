@@ -27,7 +27,7 @@ echo " >>>> SSH KEY"
 ssh-add /home/fisa/.ssh/fisa_ssh_3
 
 # add local bin path to fish
-set -U fish_user_paths /home/fisa/.local/bin $fish_user_paths
+fish -c "set -U fish_user_paths /home/fisa/.local/bin $fish_user_paths"
 
 # add syncthing service
 mkdir -p /home/fisa/.config/systemd/user
