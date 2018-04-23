@@ -16,8 +16,8 @@ sudo dpkg -i keybase_amd64.deb
 run_keybase
 
 # update repos and install missing dependencies
-sudo apt-get update
-sudo apt-get install -f -y
+sudo apt update
+sudo apt install -f -y
 
 # install docker top
 sudo wget https://github.com/bcicen/ctop/releases/download/v0.6.0/ctop-0.6.0-linux-amd64 -O /usr/local/bin/ctop
