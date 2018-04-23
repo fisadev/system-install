@@ -7,6 +7,6 @@ pip3 install psutil
 
 echo "IMPORTANT! Manual steps:"
 echo "1) Edit the sudoers file with sudo visudo, add:"
-echo "fisa ALL=NOPASSWD: /home/devel/keyboard_mon/km.py"
+echo "fisa ALL=NOPASSWD: /home/fisa/devel/keyboard_mon/km.py"
 echo "2) Add to startup applications:"
 echo "sudo /home/fisa/devel/keyboard_mon/km.py"
