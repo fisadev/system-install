@@ -16,6 +16,5 @@ Finish the installation by doing this things manually:
    * Gnome-shell extensions
    * Chrome/firefox (user/sync)
    * User (avatar)
- * Remove tracker package? Improves performance, but check if it's required by something
  * Install steam from the website, run it, install games (and remember to run it with primusrun)
  * Configure the compose key (in keyboard configs, shortcuts tab, typing section)
