@@ -1,7 +1,7 @@
 1. Disconnect any external/secondary monitors.
 2. Install video and optimus drivers: 
 
-    sudo apt install nvidia-361 nvidia-prime
+    sudo apt install nvidia-384 nvidia-prime
 
 3. Reboot your machine and login.
 4. Open the "Nvidia X Server Settings" app, go to the "PRIME Profiles" section and choose "NVIDIA".
