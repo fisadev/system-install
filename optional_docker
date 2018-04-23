@@ -1,4 +1,19 @@
-# install docker 
-wget -qO- https://get.docker.com/ | sh 
-# add user to the docker group
+#!/bin/bash
+# dependencies
+sudo apt install \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    software-properties-common
+
+# add key and repo
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+
+# update and install docker
+sudo apt update
+sudo apt install docker-ce -y
+
+# and finally, set permissions
+sudo groupadd docker
 sudo usermod -aG docker fisa
