@@ -32,5 +32,3 @@ pip3 install neovim pep8 flake8 pyflakes pylint isort
 
 # argos scripts dependencies
 pip3 install sh psutil
-# keyboard_mon dependencies
-pip3 install psutil

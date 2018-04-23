@@ -6,14 +6,8 @@ Finish the installation by doing this things manually:
       AllowUsers fisa invitado
    then restart the ssh service
  * Edit the sudoers file with sudo visudo, add:
-   (One is for user invitado to run the shared tmux on read-only mode, 
-    and the other for the keyboard monitor)
       Defaults insults
       invitado ALL=NOPASSWD: /usr/bin/tmux -2 -S /tmp/shared_tmux attach -r
-      fisa ALL = NOPASSWD: /home/devel/keyboard_mon/km.py
- * Add to startup applications:
-   * /home/fisa/scripts/start_conky
-   * sudo /home/fisa/devel/keyboard_mon/km.py
  * Install gnome shell extensions listed in gnome-shell-extensions.html
  * Configure settings for:
    * Gnome (wallpaper, themes, fonts, window buttons, behaviour, favorite apps, some of them from gnome tweak tool)
