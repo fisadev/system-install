@@ -6,6 +6,7 @@ sudo apt install -y \
     git-doc \
     qgit \
     gitk \
+    gitg \
     tig \
     mercurial \
     tk \
@@ -17,11 +18,9 @@ sudo apt install -y \
     openssh-server \
     vim \
     vim-gnome \
-    bpython \
-    winpdb \
+    neovim \
     exuberant-ctags \
     vlc \
-    minitube \
     cheese \
     pinta \
     kupfer \
@@ -34,7 +33,6 @@ sudo apt install -y \
     ubuntu-restricted-extras \
     virtualbox \
     weechat \
-    x11vnc \
     sqlitebrowser \
     meld \
     ppa-purge \
@@ -42,31 +40,26 @@ sudo apt install -y \
     nethogs \
     p7zip \
     build-essential \
-    python-gdata \
     imagemagick \
     tree \
     python-pip \
     python-dev \
+    python3-pip \
     python3-dev \
     python3-venv \
     easytag \
     rst2pdf \
     impressive \
-    postgresql-9.5 \
-    postgresql-server-dev-9.5 \
+    postgresql-9.6 \
+    postgresql-server-dev-9.6 \
     inkscape \
     gimp \
     run-one \
     nocache \
     expect-dev \
-    ack-grep \
     curl \
     libnet-dbus-perl \
-    gir1.2-gtop-2.0 \
-    gir1.2-networkmanager-1.0 \
-    gtk2-engines-murrine \
-    gtk3-engines-unico \
-    gnome-shell \
+    gnome-session \
     gnome-tweak-tool \
     gnome-maps \
     cmatrix \
@@ -77,13 +70,11 @@ sudo apt install -y \
     fdupes \
     nginx \
     graphviz \
-    paper-gtk-theme \
     paper-icon-theme \
     paper-cursor-theme \
     arc-theme \
     aria2 \
     ttyrec \
-    gitg \
     gnupg \
     nodejs \
     npm \
@@ -102,9 +93,7 @@ sudo apt install -y \
     guvcview \
     openshot \
     stellarium \
-    openrazer-meta \
-    wine \
-    lightdm-gtk-greeter-settings
+    openrazer-meta
 
 # not using because problems in my current version, but want to use:
 # removed at 15.04
