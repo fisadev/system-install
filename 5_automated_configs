@@ -37,3 +37,9 @@ systemctl start syncthing@fisa.service
 
 # make folders show first in open/save file dialogs
 gsettings set org.gtk.Settings.FileChooser sort-directories-first true
+
+# neovim config installation
+echo ">>>> NEOVIM CONFIGS"
+mkdir .config/nvim
+ln -s /home/fisa/devel/fisa-nvim-config/init.vim .config/nvim/
+nvim
