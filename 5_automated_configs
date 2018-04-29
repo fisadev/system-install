@@ -55,3 +55,6 @@ ln -s /home/fisa/devel/mios/argos /home/fisa/.config/
 
 # don't notify when new printers are detected
 gsettings set org.gnome.settings-daemon.plugins.print-notifications active false
+
+# enable tap-to-click
+gsettings set org.gnome.desktop.peripherals.touchpad tap-to-click true
