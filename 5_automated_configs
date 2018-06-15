@@ -58,3 +58,7 @@ gsettings set org.gnome.settings-daemon.plugins.print-notifications active false
 
 # enable tap-to-click
 gsettings set org.gnome.desktop.peripherals.touchpad tap-to-click true
+
+# add custom app shortcuts
+sudo ln -s /home/fisa/devel/mios/shortcuts/firefox_dev_fisa.desktop /usr/share/applications/
+sudo ln -s /home/fisa/devel/mios/shortcuts/firefox_dev_satellogic.desktop /usr/share/applications/
