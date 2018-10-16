@@ -30,3 +30,7 @@ sudo add-apt-repository -y ppa:openrazer/stable
 echo "syncthing"
 curl -s https://syncthing.net/release-key.txt | sudo apt-key add -
 echo "deb http://apt.syncthing.net/ syncthing release" | sudo tee /etc/apt/sources.list.d/syncthing.list
+
+echo "sublime merge"
+wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list

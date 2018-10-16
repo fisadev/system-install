@@ -95,6 +95,7 @@ sudo apt install -y \
     stellarium \
     wine-stable \
     rename \
+    sublime-merge \
     openrazer-meta
 
 # temporary workaround because ack-grep is no longer in ubuntu's repos:
