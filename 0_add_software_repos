@@ -7,30 +7,11 @@ sudo apt install curl
 
 
 echo "numix icon themes"
-sudo add-apt-repository -y ppa:numix/ppa
-
-echo "ultraflat icons"
-sudo add-apt-repository -y ppa:noobslab/icons
-
-echo "neovim"
-sudo add-apt-repository -y ppa:neovim-ppa/stable
-
-echo "several themes, including paper icon theme"
-sudo add-apt-repository -y ppa:snwh/pulp
-
-echo "offline documentation tool"
-sudo add-apt-repository -y ppa:zeal-developers/ppa
+sudo add-apt-repository ppa:numix/ppa -n -y
 
 echo "Stellarium"
-sudo add-apt-repository -y ppa:stellarium/stellarium-releases
-
-echo "Razer drivers"
-sudo add-apt-repository -y ppa:openrazer/stable
+sudo add-apt-repository ppa:stellarium/stellarium-releases -n -y
 
 echo "syncthing"
 curl -s https://syncthing.net/release-key.txt | sudo apt-key add -
 echo "deb http://apt.syncthing.net/ syncthing release" | sudo tee /etc/apt/sources.list.d/syncthing.list
-
-echo "sublime merge"
-wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
-echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
