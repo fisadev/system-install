@@ -5,9 +5,6 @@ Finish the installation by doing this things manually:
       PermitRootLogin no
       AllowUsers fisa invitado
    then restart the ssh service
- * Edit the sudoers file with sudo visudo, add:
-      Defaults insults
-      invitado ALL=NOPASSWD: /usr/bin/tmux -2 -S /tmp/shared_tmux attach -r
  * Install gnome shell extensions listed in gnome-shell-extensions.html
  * Configure settings for:
    * Gnome (wallpaper, themes, fonts, window buttons, behaviour, favorite apps, some of them from gnome tweak tool)
@@ -18,4 +15,3 @@ Finish the installation by doing this things manually:
    * User (avatar)
  * Install steam from the website, run it, install games (and remember to run it with primusrun)
  * Configure the compose key (gnome-tweak-tool, under keyboard and shortcuts)
- * Migrate fish history from pre_update/.local/share/ to .local/share
