@@ -49,7 +49,6 @@ ln -s /home/fisa/devel/mios/dotfiles/fish_right_prompt.fish /home/fisa/.config/f
 echo ">>>> NEOVIM CONFIGS"
 mkdir -p /home/fisa/.config/nvim
 ln -s /home/fisa/devel/fisa-nvim-config/init.vim /home/fisa/.config/nvim/
-nvim
 
 # argos gnome shell extension scripts
 ln -s /home/fisa/devel/mios/argos /home/fisa/.config/
