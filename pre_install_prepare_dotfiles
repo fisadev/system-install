@@ -1,0 +1,129 @@
+#!/bin/env python3
+import sys
+from datetime import datetime
+from pathlib import Path
+
+
+# folders and files that I'm sure I don't want to carry between installs
+remove = [
+    ".azure",
+    ".bashrc",
+    ".cargo",
+    ".chirp.ini",
+    ".cpanm",
+    ".docker",
+    ".dosbox",
+    ".fades",
+    ".fontconfig",
+    ".gksu.lock",
+    ".hgk",
+    ".httpie",
+    ".ipynb_checkpoints",
+    ".ipython",
+    ".jupyter",
+    ".keybase-installer",
+    ".kube",
+    ".mono",
+    ".mypy_cache",
+    ".nano",
+    ".npm",
+    ".nv",
+    ".openshot",
+    ".pip",
+    ".pyenv",
+    ".pylint.d",
+    ".pytest_cache",
+    ".pyxbld",
+    ".recently-used",
+    ".Skype",
+    ".status_cache",
+    ".sudo_as_admin_successful",
+    ".wget-hsts",
+    ".wine",
+    ".xsel.log",
+    ".zoom",
+    ".zshrc",
+    # not thaat sure
+    ".fzf",
+    ".fzf.bash",
+    ".fzf.zsh",
+    ".keras",
+    ".steam",
+    ".steampath",
+    ".stellarium",
+]
+
+# folders and files that I want to carry
+keep = [
+    ".fish_history",
+    ".bash_history",
+    ".gnupg",
+    ".lesshst",
+    ".nis142",
+    ".node_repl_history",
+    ".octave_hist",
+    ".password-store",
+    ".pgcli-history",
+    ".psql_history",
+    ".psql_history-btanalytics",
+    ".psql_history-cpi_mrp",
+    ".psql_history-fisa",
+    ".psql_history-meli_para",
+    ".psql_history-prueba_josue_db",
+    ".python_history",
+    ".rediscli_history",
+    ".selected_editor",
+    ".sqlite_history",
+    ".ssh",
+    ".weechat",
+    ".zsh_history",
+]
+
+# my symlinks
+symlinks = [
+    ".fonts",
+    ".themes",
+    ".gitconfig",
+    ".hgrc",
+    ".psqlrc",
+    ".tmux.conf",
+    ".xbindkeysrc",
+]
+
+base_path = Path(".").absolute()
+print("Working over", base_path, ", is that ok? (y/n)")
+if input() != "y":
+    print("aborted")
+    sys.exit()
+
+backup_path = base_path / "backup_dotfiles_{}".format(datetime.now().strftime("%Y%m%d"))
+backup_path.mkdir()
+
+print("Unwanted dotfiles will be moved to", backup_path)
+
+for name in remove:
+    current_path = base_path / name
+    new_path = backup_path / name
+    if current_path.exists():
+        print("Moving unwanted", name)
+        current_path.rename(new_path)
+    else:
+        print("Unwanted", name, "not present, ignoring")
+
+all_things_to_keep = (
+    [(name, False) for name in keep] +
+    [(name, True) for name in symlinks]
+)
+
+for name, is_symlink in all_things_to_keep:
+    current_path = base_path / name
+    if not current_path.exists():
+        print("WARNING!! Wanted", name, "not present!")
+    elif is_symlink and not current_path.is_symlink():
+        print("WARNING!! Wanted symlink", name, "is not actually a symlink!")
+
+all_known_dotfiles = set(remove + keep + symlinks)
+
+for thing_path in base_path.iterdir():
+    if thing_path.name.startswith(".") and thing_path.name not in all_known_dotfiles:
+        print("WARNING!! Decide what to do with unknown dotfile", thing_path.name)
