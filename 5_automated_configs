@@ -40,6 +40,7 @@ gsettings set org.gtk.Settings.FileChooser sort-directories-first true
 
 # fish configs
 mkdir -p /home/fisa/.config/fish/functions
+wget https://raw.githubusercontent.com/Duncaen/fish-django-completions/master/__fish_complete_django.fish -O /home/fisa/.config/fish/functions/__fish_complete_django.fish
 ln -s /home/fisa/devel/mios/dotfiles/config.fish /home/fisa/.config/fish/
 ln -s /home/fisa/devel/mios/dotfiles/fish_prompt.fish /home/fisa/.config/fish/functions/
 ln -s /home/fisa/devel/mios/dotfiles/fish_right_prompt.fish /home/fisa/.config/fish/functions/
