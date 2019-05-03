@@ -1,34 +1,28 @@
 #!/bin/bash
 
 # system tools
-pip install \
-    httpie \
-    supervisor \
-    sphinx \
-    lice \
-    pydot \
-    ffind \
-    vanity \
-    pyparsing==1.5.7 \
+pip3 install --user \
     ngxtop \
-    percol \
-    speedtest-cli \
-    pgcli \
-    eg \
-    whatever \
-    pythonpy \
-    glances \
-    ohmu \
     pinggraph \
-    magic-wormhole
-
-pip3 install \
+    glances \
+    ffind \
+    percol `# cli interactive filter for output of programs` \
+    speedtest-cli \
+    youtube-dl \
+    httpie \
+    pgcli \
+    pythonpy \
+    eg \
+    magic-wormhole \
+    lice `# generate licence files for oss projects` \
+    vanity `# pipy downloads stats for packages` \
+    ohmu `# disk usage details from a folder, similar to gdmap` \
+    sh `# argos scripts dependency` \
+    psutil `# argos scripts dependency` \
+    neovim `# fisa nvim config dependency` \
+    pep8 `# fisa nvim config dependency` \
+    flake8 `# fisa nvim config dependency` \
+    pyflakes `# fisa nvim config dependency` \
+    pylint `# fisa nvim config dependency` \
+    isort `# fisa nvim config dependency` \
     fades
-
-
-# fisa neovim config dependencies
-pip install neovim pep8 flake8 pyflakes pylint isort
-pip3 install neovim pep8 flake8 pyflakes pylint isort
-
-# argos scripts dependencies
-pip3 install sh psutil
