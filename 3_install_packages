@@ -2,17 +2,10 @@
 sudo apt install -y \
     git \
     git-core \
-    git-gui \
     git-doc \
-    qgit \
-    gitk \
     gitg \
     tig \
-    mercurial \
     tk \
-    hgview \
-    gource \
-    zsh \
     fish \
     screen \
     openssh-server \
@@ -20,20 +13,12 @@ sudo apt install -y \
     vim-gnome \
     neovim \
     exuberant-ctags \
-    vlc \
-    cheese \
-    pinta \
-    kupfer \
     gparted \
     gdmap \
     htop \
     iotop \
-    conky \
-    conky-all \
     ubuntu-restricted-extras \
-    virtualbox \
     weechat \
-    sqlitebrowser \
     meld \
     ppa-purge \
     tmux \
@@ -42,62 +27,37 @@ sudo apt install -y \
     build-essential \
     imagemagick \
     tree \
-    python-pip \
-    python-dev \
     python3-pip \
     python3-dev \
     python3-venv \
-    easytag \
-    rst2pdf \
-    impressive \
-    postgresql-9.6 \
-    postgresql-server-dev-9.6 \
-    inkscape \
-    gimp \
     run-one \
     nocache \
-    expect-dev \
+    expect-dev `# tool to automate other cli tools (inputs, etc)` \
     curl \
-    libnet-dbus-perl \
+    libnet-dbus-perl `# required by the system monitor gnome-shell extension` \
     gnome-session \
     gnome-tweak-tool \
-    gnome-maps \
     cmatrix \
-    tdfsb \
+    tdfsb `# doom-like process manager` \
     pgtop \
     nfs-common \
     cmus \
     fdupes \
     nginx \
     graphviz \
-    paper-icon-theme \
-    paper-cursor-theme \
     arc-theme \
-    aria2 \
+    aria2 `# cli tool for faster downloads, even on normal http links` \
     ttyrec \
     gnupg \
-    nodejs \
-    npm \
     xbindkeys \
     xautomation \
-    youtube-dl \
-    vinagre \
     pastebinit \
     xclip \
-    unetbootin \
     jq \
-    mesa-utils \
-    zeal \
+    mesa-utils `# advanced audio controls` \
     chrome-gnome-shell \
-    kazam \
-    guvcview \
-    openshot \
-    stellarium \
-    wine-stable \
-    rename \
-    sublime-merge \
-    openrazer-meta
+    rename
 
 # temporary workaround because ack-grep is no longer in ubuntu's repos:
-sudo apt install cpanminus
+sudo apt install -y cpanminus
 sudo cpanm install App::Ack

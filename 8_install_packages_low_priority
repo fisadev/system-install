@@ -1,0 +1,27 @@
+#!/bin/bash
+sudo apt install -y \
+     mercurial \
+     hgview \
+     gource \
+     vlc \
+     cheese \
+     pinta \
+     kupfer \
+     virtualbox \
+     sqlitebrowser \
+     easytag \
+     rst2pdf \
+     postgresql-11 \
+     postgresql-server-dev-11 \
+     inkscape \
+     gimp \
+     gnome-maps \
+     zeal \
+     kazam \
+     vinagre `# vnc client` \
+     guvcview `# show webcam as a clean window, and more` \
+     openshot \
+     stellarium \
+     wine-stable \
+     nodejs \
+     npm
