@@ -59,6 +59,10 @@ gsettings set org.gnome.settings-daemon.plugins.print-notifications active false
 # enable tap-to-click
 gsettings set org.gnome.desktop.peripherals.touchpad tap-to-click true
 
-# add custom app shortcuts
-sudo ln -s /home/fisa/devel/mios/shortcuts/firefox_dev_fisa.desktop /usr/share/applications/
-sudo ln -s /home/fisa/devel/mios/shortcuts/firefox_dev_satellogic.desktop /usr/share/applications/
+# add ability to join shared tmux without sudo password for invitado
+echo "invitado ALL=NOPASSWD: /usr/bin/tmux -2 -S /tmp/shared_tmux attach -r" | sudo tee -a /etc/sudoers.d/invitado_shared_tmux
+sudo chmod 0440 /etc/sudoers.d/invitado_shared_tmux
+
+# replace fish history file with symlink to custom fish history file
+rm /home/fisa/.local/share/fish/fish_history
+ln -s /home/fisa/.fish_history /home/fisa/.local/share/fish/fish_history
