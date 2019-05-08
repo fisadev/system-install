@@ -13,5 +13,8 @@ Finish the installation by doing this things manually:
    * Gnome-shell extensions
    * Chrome/firefox (user/sync)
    * User (avatar)
+   * Gnome settings app:
+       * Sources for gnome shell autocomplete, under Search
+       * Disable recent files under Privacy/Usage & History
  * Install steam from the website, run it, install games (and remember to run it with primusrun)
  * Configure the compose key (gnome-tweak-tool, under keyboard and shortcuts)
