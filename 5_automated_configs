@@ -35,6 +35,9 @@ cp /home/fisa/devel/syncthing/etc/linux-systemd/user/syncthing.service /home/fis
 systemctl enable syncthing@fisa.service
 systemctl start syncthing@fisa.service
 
+# make folders show first in open/save file dialogs
+gsettings set org.gtk.Settings.FileChooser sort-directories-first true
+
 # fish configs
 mkdir -p /home/fisa/.config/fish/functions
 wget https://raw.githubusercontent.com/Duncaen/fish-django-completions/master/__fish_complete_django.fish -O /home/fisa/.config/fish/functions/__fish_complete_django.fish
