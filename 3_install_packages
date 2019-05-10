@@ -62,3 +62,5 @@ sudo apt install -y \
 # temporary workaround because ack-grep is no longer in ubuntu's repos:
 sudo apt install -y cpanminus
 sudo cpanm install App::Ack
+
+sudo snap install emoj
