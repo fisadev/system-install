@@ -57,10 +57,10 @@ sudo apt install -y \
     mesa-utils `# advanced audio controls` \
     chrome-gnome-shell \
     pass \
+    rofi `# dependency for the emoji chooser` \
+    xdotool `# dependency for the emoji chooser` \
     rename
 
 # temporary workaround because ack-grep is no longer in ubuntu's repos:
 sudo apt install -y cpanminus
 sudo cpanm install App::Ack
-
-sudo snap install emoj
