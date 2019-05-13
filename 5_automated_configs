@@ -13,7 +13,7 @@ echo " >>>> INVITADO USER"
 sudo adduser invitado
 
 # scripts to allow invitado user to share tmux on read-only mode
-sudo cp /home/fisa/scripts/read_only_shared_tmux_attac /home/invitado/conectar
+sudo cp /home/fisa/devel/mios/scripts/read_only_shared_tmux_attach /home/invitado/conectar
 sudo chown invitado:invitado /home/invitado/conectar
 
 # create postgres user
@@ -60,7 +60,7 @@ gsettings set org.gnome.settings-daemon.plugins.print-notifications active false
 gsettings set org.gnome.desktop.peripherals.touchpad tap-to-click true
 
 # add ability to join shared tmux without sudo password for invitado
-echo "invitado ALL=NOPASSWD: /usr/bin/tmux -2 -S /tmp/shared_tmux attach -r" | sudo tee -a /etc/sudoers.d/invitado_shared_tmux
+echo "invitado ALL=NOPASSWD: /usr/bin/tmux -2 -S /tmp/shared_tmux attach -r" | sudo tee /etc/sudoers.d/invitado_shared_tmux
 sudo chmod 0440 /etc/sudoers.d/invitado_shared_tmux
 
 # replace fish history file with symlink to custom fish history file
