@@ -59,6 +59,10 @@ gsettings set org.gnome.settings-daemon.plugins.print-notifications active false
 # enable tap-to-click
 gsettings set org.gnome.desktop.peripherals.touchpad tap-to-click true
 
+# add ability to unmount cyrene/tero sshfs without sudo password
+echo "fisa ALL=NOPASSWD: /bin/umount /home/fisa/servers/tero_cyrene/" | sudo tee /etc/sudoers.d/fisa_umount_cyrene_tero
+sudo chmod 0440 /etc/sudoers.d/fisa_umount_cyrene_tero
+
 # add ability to join shared tmux without sudo password for invitado
 echo "invitado ALL=NOPASSWD: /usr/bin/tmux -2 -S /tmp/shared_tmux attach -r" | sudo tee /etc/sudoers.d/invitado_shared_tmux
 sudo chmod 0440 /etc/sudoers.d/invitado_shared_tmux
