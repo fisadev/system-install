@@ -18,7 +18,6 @@ sudo apt install -y \
     htop \
     iotop \
     ubuntu-restricted-extras \
-    weechat \
     meld \
     ppa-purge \
     tmux \

@@ -43,6 +43,7 @@ remove = [
     ".xsel.log",
     ".zoom",
     ".zshrc",
+    ".weechat",
     # not thaat sure
     ".fzf",
     ".fzf.bash",
@@ -76,7 +77,6 @@ keep = [
     ".selected_editor",
     ".sqlite_history",
     ".ssh",
-    ".weechat",
     ".zsh_history",
 ]
 
