@@ -59,6 +59,7 @@ sudo apt install -y \
     rofi `# dependency for the emoji chooser` \
     xdotool `# dependency for the emoji chooser` \
     sshfs `# to mounth file systems through ssh` \
+    ffmpeg `# video converter and more` \
     rename
 
 # temporary workaround because ack-grep is no longer in ubuntu's repos:
