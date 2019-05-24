@@ -20,3 +20,4 @@ Finish the installation by doing this things manually:
  * Configure the compose key (gnome-tweak-tool, under keyboard and shortcuts)
  * Configure shortcut to the emoji chooser, with Super+e:
     /home/fisa/devel/charpicker/charpicker.sh
+ * Revisar y ajustar tamaño de swap (/home/fisa/kb/linux_swap.rst)
