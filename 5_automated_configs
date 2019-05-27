@@ -70,3 +70,6 @@ sudo chmod 0440 /etc/sudoers.d/invitado_shared_tmux
 # replace fish history file with symlink to custom fish history file
 rm /home/fisa/.local/share/fish/fish_history
 ln -s /home/fisa/.fish_history /home/fisa/.local/share/fish/fish_history
+
+# add fisa user to the dialout group, so I can run scripts using serial ports (like the microbit) without sudo
+sudo usermod -a -G dialout fisa
