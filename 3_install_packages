@@ -63,6 +63,7 @@ sudo apt install -y \
     ffmpeg `# video converter and more` \
     flatpak \
     gnome-software-plugin-flatpak `# to be able to install flatpak apps from the store with clicks` \
+    v4l2ucp `# powerful webcam control panel` \
     rename
 
 # temporary workaround because ack-grep is no longer in ubuntu's repos:
