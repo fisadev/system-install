@@ -47,6 +47,7 @@ sudo apt install -y \
     arc-theme \
     aria2 `# cli tool for faster downloads, even on normal http links` \
     ttyrec \
+    ttygif \
     gnupg \
     xbindkeys \
     xautomation \
