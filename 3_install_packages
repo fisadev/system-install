@@ -64,6 +64,7 @@ sudo apt install -y \
     flatpak \
     gnome-software-plugin-flatpak `# to be able to install flatpak apps from the store with clicks` \
     v4l2ucp `# powerful webcam control panel` \
+    ulauncher `# powerful app launcher and more` \
     rename
 
 # temporary workaround because ack-grep is no longer in ubuntu's repos:
