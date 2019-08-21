@@ -9,7 +9,7 @@ Finish the installation by doing this things manually:
  * Configure settings for:
    * Gnome (wallpaper, themes, fonts, window buttons, behaviour, favorite apps, some of them from gnome tweak tool)
    * Gnome-terminal (colors, font, menu bar, initial command: tmux -2)
-   * Kupfer (plugins, theme, data sources)
+   * Ulauncher (plugins from ulauncher_extensions.txt, theme, etc)
    * Gnome-shell extensions
    * Chrome/firefox (user/sync)
    * User (avatar)
