@@ -1,0 +1,6 @@
+https://github.com/skykooler/ulauncher-conversion (unit converter)
+https://github.com/zensoup/ulauncher-unicode (unicode character finder)
+https://github.com/FloydJohn/ulauncher-chrome-profiles (chrome profiles)
+https://github.com/yannishuber/pass-ulauncher (pass)
+https://github.com/brpaz/ulauncher-devdocs (dev docs)
+https://github.com/brpaz/ulauncher-file-search (fdfind)
