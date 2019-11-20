@@ -29,12 +29,6 @@ ssh-add /home/fisa/.ssh/fisa_ssh_3
 # add local bin path to fish
 fish -c "set -U fish_user_paths /home/fisa/.local/bin $fish_user_paths"
 
-# add syncthing service
-mkdir -p /home/fisa/.config/systemd/user
-cp /home/fisa/devel/syncthing/etc/linux-systemd/user/syncthing.service /home/fisa/.config/systemd/user
-systemctl enable syncthing@fisa.service
-systemctl start syncthing@fisa.service
-
 # make folders show first in open/save file dialogs
 gsettings set org.gtk.Settings.FileChooser sort-directories-first true
 
@@ -48,7 +42,7 @@ ln -s /home/fisa/devel/mios/dotfiles/fish_right_prompt.fish /home/fisa/.config/f
 # neovim config installation
 echo ">>>> NEOVIM CONFIGS"
 mkdir -p /home/fisa/.config/nvim
-ln -s /home/fisa/devel/fisa-nvim-config/init.vim /home/fisa/.config/nvim/
+ln -s /home/fisa/devel/fisa-vim-config/config.vim .config/nvim/init.vim
 
 # argos gnome shell extension scripts
 ln -s /home/fisa/devel/mios/argos /home/fisa/.config/
@@ -68,6 +62,7 @@ echo "invitado ALL=NOPASSWD: /usr/bin/tmux -2 -S /tmp/shared_tmux attach -r" | s
 sudo chmod 0440 /etc/sudoers.d/invitado_shared_tmux
 
 # replace fish history file with symlink to custom fish history file
+mkdir -p /home/fisa/.local/share/fish
 rm /home/fisa/.local/share/fish/fish_history
 ln -s /home/fisa/.fish_history /home/fisa/.local/share/fish/fish_history
 
