@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 # system tools
 python3 -m pip install --user \

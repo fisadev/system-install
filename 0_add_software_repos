@@ -1,4 +1,6 @@
 #!/bin/bash
+set -e
+
 # currently using:
 
 # needed as curl no longer comes installed

@@ -1,4 +1,6 @@
 #!/bin/bash
+set -e
+
 # my crons
 crontab /home/fisa/devel/mios/dotfiles/crontab
 

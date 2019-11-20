@@ -1,4 +1,6 @@
 #!/bin/bash
+set -e
+
 # install hangouts plugin
 rm -f google-talkplugin_current_amd64.deb
 wget https://dl.google.com/linux/direct/google-talkplugin_current_amd64.deb
