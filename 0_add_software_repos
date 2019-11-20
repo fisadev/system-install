@@ -14,7 +14,3 @@ sudo add-apt-repository ppa:stellarium/stellarium-releases -n -y
 
 echo "Ulauncher"
 sudo add-apt-repository ppa:agornostal/ulauncher -n -y
-
-echo "syncthing"
-curl -s https://syncthing.net/release-key.txt | sudo apt-key add -
-echo "deb http://apt.syncthing.net/ syncthing release" | sudo tee /etc/apt/sources.list.d/syncthing.list
