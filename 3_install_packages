@@ -10,7 +10,6 @@ sudo apt install -y \
     screen \
     openssh-server \
     vim \
-    vim-gnome \
     neovim \
     exuberant-ctags \
     gparted \
@@ -63,12 +62,13 @@ sudo apt install -y \
     ffmpeg `# video converter and more` \
     flatpak \
     gnome-software-plugin-flatpak `# to be able to install flatpak apps from the store with clicks` \
-    v4l2ucp `# powerful webcam control panel` \
     ulauncher `# powerful app launcher and more` \
     units `# unit converted, used by an extension of ulauncher` \
     fd-find `# nicer alternative to find` \
+    ack-grep `# nicer alternative to grep, for code` \
+    postgresql-11 \
+    postgresql-server-dev-11 \
     rename
 
-# temporary workaround because ack-grep is no longer in ubuntu's repos:
-sudo apt install -y cpanminus
-sudo cpanm install App::Ack
+# No longer present, but want:
+# v4l2ucp `# powerful webcam control panel` \

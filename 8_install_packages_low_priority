@@ -1,7 +1,6 @@
 #!/bin/bash
 sudo apt install -y \
      mercurial \
-     hgview \
      gource \
      vlc \
      cheese \
@@ -11,8 +10,6 @@ sudo apt install -y \
      sqlitebrowser \
      easytag \
      rst2pdf \
-     postgresql-11 \
-     postgresql-server-dev-11 \
      inkscape \
      gimp \
      gnome-maps \
