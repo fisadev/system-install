@@ -5,12 +5,11 @@ Finish the installation by doing this things manually:
       PermitRootLogin no
       AllowUsers fisa invitado
    then restart the ssh service
- * Install gnome shell extensions listed in gnome-shell-extensions.html
  * Configure settings for:
    * Gnome (wallpaper, themes, fonts, window buttons, behaviour, favorite apps, some of them from gnome tweak tool)
    * Gnome-terminal (colors, font, menu bar, initial command: tmux -2)
    * Ulauncher (plugins from ulauncher_extensions.txt, theme, etc)
-   * Gnome-shell extensions
+   * Gnome-shell extensions listed in gnome-shell-extensions.html
    * Chrome/firefox (user/sync)
    * User (avatar)
    * Gnome settings app:
@@ -18,7 +17,5 @@ Finish the installation by doing this things manually:
        * Disable recent files under Privacy/Usage & History
  * Install steam from the website, run it, install games
  * Configure the compose key (gnome-tweak-tool, under keyboard and shortcuts)
- * Configure shortcut to the emoji chooser, with Super+e:
-    /home/fisa/devel/charpicker/charpicker.sh
  * Review and adjust swap file size: /home/fisa/kb/linux_swap.rst
  * Decide if disabling tracker is a good idea (it usually is, cpu hog and high disk usage): /home/fisa/kb/disable_tracker.rst
