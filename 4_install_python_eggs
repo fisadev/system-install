@@ -26,4 +26,5 @@ python3 -m pip install --user \
     pyflakes `# fisa nvim config dependency` \
     pylint `# fisa nvim config dependency` \
     isort `# fisa nvim config dependency` \
+    icdiff `# nice two columns diffs in the terminal` \
     fades
