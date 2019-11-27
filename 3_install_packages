@@ -70,6 +70,7 @@ sudo apt install -y \
     ack-grep `# nicer alternative to grep, for code` \
     postgresql-11 \
     postgresql-server-dev-11 \
+    pulseeffects `# equalizer and stuff` \
     rename
 
 # No longer present, but want:
