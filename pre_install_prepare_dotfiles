@@ -83,6 +83,7 @@ symlinks = [
     ".psqlrc",
     ".tmux.conf",
     ".xbindkeysrc",
+    ".alacritty.yml",
 ]
 
 base_path = Path(".").absolute()

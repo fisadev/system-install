@@ -71,6 +71,7 @@ sudo apt install -y \
     postgresql-11 \
     postgresql-server-dev-11 \
     pulseeffects `# equalizer and stuff` \
+    alacritty `# nice terminal emulator` \
     rename
 
 # No longer present, but want:
