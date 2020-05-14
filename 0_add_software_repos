@@ -19,3 +19,6 @@ sudo add-apt-repository ppa:agornostal/ulauncher -n -y
 
 echo "Alacritty"
 sudo add-apt-repository ppa:mmstick76/alacritty -n -y
+
+echo "Gaming mouses config tool"
+sudo add-apt-repository ppa:libratbag-piper/piper-libratbag-git -n -y

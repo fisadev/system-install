@@ -72,6 +72,7 @@ sudo apt install -y \
     postgresql-server-dev-11 \
     pulseeffects `# equalizer and stuff` \
     alacritty `# nice terminal emulator` \
+    ratbagd piper `# lib and GUI to configure gaming devices` \
     rename
 
 # No longer present, but want:
