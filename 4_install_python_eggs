@@ -20,10 +20,8 @@ python3 -m pip install --user \
     ohmu `# disk usage details from a folder, similar to gdmap` \
     sh `# argos scripts dependency` \
     psutil `# argos scripts dependency` \
-    neovim `# fisa nvim config dependency` \
-    pep8 `# fisa nvim config dependency` \
+    pynvim `# fisa nvim config dependency` \
     flake8 `# fisa nvim config dependency` \
-    pyflakes `# fisa nvim config dependency` \
     pylint `# fisa nvim config dependency` \
     isort `# fisa nvim config dependency` \
     icdiff `# nice two columns diffs in the terminal` \
