@@ -65,8 +65,8 @@ sudo apt install -y \
     units `# unit converted` \
     fd-find `# nicer alternative to find` \
     ack-grep `# nicer alternative to grep, for code` \
-    postgresql-11 \
-    postgresql-server-dev-11 \
+    postgresql-12 \
+    postgresql-server-dev-12 \
     pulseeffects `# equalizer and stuff` \
     alacritty `# nice terminal emulator` \
     ratbagd piper `# lib and GUI to configure gaming devices` \
