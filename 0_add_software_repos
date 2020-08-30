@@ -14,9 +14,6 @@ sudo add-apt-repository ppa:numix/ppa -n -y
 echo "Stellarium"
 sudo add-apt-repository ppa:stellarium/stellarium-releases -n -y
 
-echo "Ulauncher"
-sudo add-apt-repository ppa:agornostal/ulauncher -n -y
-
 echo "Alacritty"
 sudo add-apt-repository ppa:mmstick76/alacritty -n -y
 

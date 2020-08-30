@@ -58,14 +58,11 @@ sudo apt install -y \
     mesa-utils `# advanced audio controls` \
     chrome-gnome-shell \
     pass \
-    rofi `# dependency for the emoji chooser` \
-    xdotool `# dependency for the emoji chooser` \
     sshfs `# to mounth file systems through ssh` \
     ffmpeg `# video converter and more` \
     flatpak \
     gnome-software-plugin-flatpak `# to be able to install flatpak apps from the store with clicks` \
-    ulauncher `# powerful app launcher and more` \
-    units `# unit converted, used by an extension of ulauncher` \
+    units `# unit converted` \
     fd-find `# nicer alternative to find` \
     ack-grep `# nicer alternative to grep, for code` \
     postgresql-11 \
