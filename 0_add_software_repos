@@ -5,7 +5,7 @@ set -e
 
 # needed as curl no longer comes installed
 sudo apt update
-sudo apt install curl
+sudo apt install curl -y
 
 
 echo "numix icon themes"
