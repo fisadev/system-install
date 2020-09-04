@@ -29,4 +29,5 @@ python3 -m pip install --user \
     isort `# fisa nvim config dependency` \
     icdiff `# nice two columns diffs in the terminal` \
     satellitetle `# lib to get tles, used by the satellites argos plugin` \
+    termcolor `# dependency of repos tool` \
     fades
