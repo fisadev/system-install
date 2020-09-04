@@ -31,9 +31,6 @@ ssh-add /home/fisa/.ssh/fisa_ssh_3
 # add local bin path to fish
 fish -c "set -U fish_user_paths /home/fisa/.local/bin $fish_user_paths"
 
-# make folders show first in open/save file dialogs
-gsettings set org.gtk.Settings.FileChooser sort-directories-first true
-
 # fish configs
 mkdir -p /home/fisa/.config/fish/functions
 wget https://raw.githubusercontent.com/Duncaen/fish-django-completions/master/__fish_complete_django.fish -O /home/fisa/.config/fish/functions/__fish_complete_django.fish
@@ -44,16 +41,7 @@ ln -s /home/fisa/devel/mios/dotfiles/fish_right_prompt.fish /home/fisa/.config/f
 # neovim config installation
 echo ">>>> NEOVIM CONFIGS"
 mkdir -p /home/fisa/.config/nvim
-ln -s /home/fisa/devel/fisa-vim-config/config.vim .config/nvim/init.vim
-
-# argos gnome shell extension scripts
-ln -s /home/fisa/devel/mios/argos /home/fisa/.config/
-
-# don't notify when new printers are detected
-gsettings set org.gnome.settings-daemon.plugins.print-notifications active false
-
-# enable tap-to-click
-gsettings set org.gnome.desktop.peripherals.touchpad tap-to-click true
+ln -s /home/fisa/devel/fisa-vim-config/config.vim /home/fisa/.config/nvim/init.vim
 
 # add ability to unmount cyrene/tero sshfs without sudo password
 echo "fisa ALL=NOPASSWD: /bin/umount /home/fisa/servers/tero_cyrene/" | sudo tee /etc/sudoers.d/fisa_umount_cyrene_tero
