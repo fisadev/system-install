@@ -27,6 +27,7 @@ python3 -m pip install --user \
     flake8 `# fisa nvim config dependency` \
     pylint `# fisa nvim config dependency` \
     isort `# fisa nvim config dependency` \
+    jedi `# fisa nvim config dependency` \
     icdiff `# nice two columns diffs in the terminal` \
     satellitetle `# lib to get tles, used by the satellites argos plugin` \
     termcolor `# dependency of repos tool` \
