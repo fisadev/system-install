@@ -70,3 +70,9 @@ ln -s /home/fisa/.fish_history /home/fisa/.local/share/fish/fish_history
 
 # add fisa user to the dialout group, so I can run scripts using serial ports (like the microbit) without sudo
 sudo usermod -a -G dialout fisa
+
+# add symlink for ctop binary
+sudo ln -s /home/fisa/apps/ctop /usr/local/bin/ctop
+
+# install the kde version of argos
+(cd /home/fisa/devel/kargos/ && kpackagetool5 -t Plasma/Applet --install plasmoid/ )
