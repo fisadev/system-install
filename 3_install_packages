@@ -61,8 +61,10 @@ sudo apt install -y \
     sshfs `# to mounth file systems through ssh` \
     ffmpeg `# video converter and more` \
     flatpak \
-    gnome-software-plugin-flatpak `# to be able to install flatpak apps from the store with clicks` \
-    units `# unit converted` \
+    ulauncher `# nifty little launcher app` \
+    units `# unit converter, also used by the units ulauncher plugin` \
+    rofi `# dependency of the ulauncher emoji plugin` \
+    xdotool `# dependency of the ulauncher emoji plugin` \
     fd-find `# nicer alternative to find` \
     ack-grep `# nicer alternative to grep, for code` \
     postgresql-12 \
