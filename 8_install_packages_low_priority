@@ -7,14 +7,12 @@ sudo apt install -y \
      vlc \
      cheese \
      pinta \
-     kupfer \
      virtualbox \
      sqlitebrowser \
      easytag \
      rst2pdf \
      inkscape \
      gimp \
-     gnome-maps \
      zeal \
      kazam \
      vinagre `# vnc client` \
