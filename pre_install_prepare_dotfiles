@@ -121,6 +121,11 @@ for name, is_symlink in all_things_to_keep:
 
 all_known_dotfiles = set(remove + keep + symlinks)
 
+decide_path = backup_path / "new_unknown_things"
+decide_path.mkdir()
+
 for thing_path in base_path.iterdir():
     if thing_path.name.startswith(".") and thing_path.name not in all_known_dotfiles:
-        print("WARNING!! Decide what to do with unknown dotfile", thing_path.name)
+        print("WARNING!! Decide what to do with unknown dotfile", thing_path.name, "(moved to", decide_path, ")")
+        new_path = decide_path / thing_path.name
+        thing_path.rename(new_path)
