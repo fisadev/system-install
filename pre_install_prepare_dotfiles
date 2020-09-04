@@ -61,7 +61,7 @@ keep = [
     ".bash_history",
     ".gnupg",
     ".lesshst",
-    ".nis142",
+    ".nis214",
     ".micropython.history",
     ".node_repl_history",
     ".octave_hist",
@@ -79,6 +79,7 @@ keep = [
 symlinks = [
     ".fonts",
     ".themes",
+    ".icons",
     ".gitconfig",
     ".psqlrc",
     ".tmux.conf",
