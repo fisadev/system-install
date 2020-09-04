@@ -20,6 +20,9 @@ python3 -m pip install --user \
     ohmu `# disk usage details from a folder, similar to gdmap` \
     sh `# argos scripts dependency` \
     psutil `# argos scripts dependency` \
+    pytz `# argos scripts dependency` \
+    tzlocal `# argos scripts dependency` \
+    orbit_predictor `# argos scripts dependency` \
     pynvim `# fisa nvim config dependency` \
     flake8 `# fisa nvim config dependency` \
     pylint `# fisa nvim config dependency` \
