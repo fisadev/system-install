@@ -35,8 +35,6 @@ sudo apt install -y \
     expect-dev `# tool to automate other cli tools (inputs, etc)` \
     curl \
     libnet-dbus-perl `# required by the system monitor gnome-shell extension` \
-    gnome-session \
-    gnome-tweak-tool \
     cmatrix \
     tdfsb `# doom-like process manager` \
     pgtop \
@@ -45,7 +43,6 @@ sudo apt install -y \
     fdupes \
     nginx \
     graphviz \
-    arc-theme \
     aria2 `# cli tool for faster downloads, even on normal http links` \
     ttyrec \
     ttygif \
@@ -56,7 +53,6 @@ sudo apt install -y \
     xclip \
     jq \
     mesa-utils `# advanced audio controls` \
-    chrome-gnome-shell \
     pass \
     sshfs `# to mounth file systems through ssh` \
     ffmpeg `# video converter and more` \
@@ -70,8 +66,8 @@ sudo apt install -y \
     postgresql-12 \
     postgresql-server-dev-12 \
     pulseeffects `# equalizer and stuff` \
-    alacritty `# nice terminal emulator` \
     ratbagd piper `# lib and GUI to configure gaming devices` \
+    qt5-style-kvantum qt5-style-kvantum-themes `# kde app styles manager` \
     rename
 
 # No longer present, but want:
