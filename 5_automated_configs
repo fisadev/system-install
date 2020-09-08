@@ -64,3 +64,7 @@ sudo ln -s /home/fisa/apps/ctop /usr/local/bin/ctop
 
 # install the kde version of argos
 (cd /home/fisa/devel/kargos/ && kpackagetool5 -t Plasma/Applet --install plasmoid/ )
+
+# make krunner accessible by just pressing meta
+echo "[ModifierOnlyShortcuts]" >> /home/fisa/.config/kwinrc
+echo "Meta=org.kde.krunner,/App,,display" >> /home/fisa/.config/kwinrc
