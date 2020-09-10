@@ -20,5 +20,6 @@ sudo apt install -y \
      openshot \
      stellarium \
      wine-stable \
+     v4l-utils `# package to configure params of webcam` \
      nodejs \
      npm
