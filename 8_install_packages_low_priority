@@ -18,6 +18,7 @@ sudo apt install -y \
      vinagre `# vnc client` \
      guvcview `# show webcam as a clean window, and more` \
      openshot \
+     flameshot `# screenshots tool` \
      stellarium \
      wine-stable \
      v4l-utils `# package to configure params of webcam` \
