@@ -22,5 +22,8 @@ sudo apt install -y \
      stellarium \
      wine-stable \
      v4l-utils `# package to configure params of webcam` \
+     siril `# post processing of telescope captures` \
      nodejs \
      npm
+
+sudo apt install -y /home/fisa/apps/installers/astrodmx-capture_0.50.11_amd64.deb `# telescope usb cam capture tool`
