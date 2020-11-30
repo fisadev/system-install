@@ -24,6 +24,7 @@ sudo apt install -y \
      v4l-utils `# package to configure params of webcam` \
      siril `# post processing of telescope captures` \
      nodejs \
+     gnome-maps \
      npm
 
 sudo apt install -y /home/fisa/apps/installers/astrodmx-capture_0.50.11_amd64.deb `# telescope usb cam capture tool`

@@ -19,3 +19,6 @@ sudo add-apt-repository ppa:libratbag-piper/piper-libratbag-git -n -y
 
 echo "Ulauncher app launcher"
 sudo add-apt-repository ppa:agornostal/ulauncher -n -y
+
+echo "Alacritty for Ubuntu 20.04"
+sudo add-apt-repository ppa:mmstick76/alacritty -n -y
