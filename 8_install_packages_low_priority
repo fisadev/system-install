@@ -22,6 +22,7 @@ sudo apt install -y \
      stellarium \
      wine-stable \
      v4l-utils `# package to configure params of webcam` \
+     mplayer \
      siril `# post processing of telescope captures` \
      nodejs \
      gnome-maps \
