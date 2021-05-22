@@ -73,6 +73,8 @@ sudo apt install -y \
     ratbagd piper `# lib and GUI to configure gaming devices` \
     ecryptfs-utils \
     alacritty `# nice terminal emulator` \
+    rclone rclone-browser `# syncer for google drive and other services` \
+    solaar `# tool to pair and manage logitech unifying devices` \ 
     rename
 
 # No longer present, but want:
