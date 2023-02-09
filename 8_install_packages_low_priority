@@ -26,6 +26,12 @@ sudo apt install -y \
      siril `# post processing of telescope captures` \
      nodejs \
      gnome-maps \
+     tdfsb `# doom-like process manager` \
+     cmus \
+     aria2 `# cli tool for faster downloads, even on normal http links` \
+     ttyrec \
+     ttygif \
+     ffmpeg `# video converter and more` \
      npm
 
 # telescope usb cam capture tool

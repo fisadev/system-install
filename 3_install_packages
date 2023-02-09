@@ -38,17 +38,12 @@ sudo apt install -y \
     gnome-session \
     gnome-tweak-tool \
     cmatrix \
-    tdfsb `# doom-like process manager` \
     pgtop \
     nfs-common \
-    cmus \
     fdupes \
     nginx \
     graphviz \
     arc-theme \
-    aria2 `# cli tool for faster downloads, even on normal http links` \
-    ttyrec \
-    ttygif \
     gnupg \
     xbindkeys \
     xautomation \
@@ -59,7 +54,6 @@ sudo apt install -y \
     chrome-gnome-shell \
     pass \
     sshfs `# to mounth file systems through ssh` \
-    ffmpeg `# video converter and more` \
     flatpak \
     ulauncher `# nifty little launcher app` \
     units `# unit converter, also used by the units ulauncher plugin` \
@@ -70,7 +64,6 @@ sudo apt install -y \
     postgresql-12 \
     postgresql-server-dev-12 \
     pulseeffects `# equalizer and stuff` \
-    ratbagd piper `# lib and GUI to configure gaming devices` \
     ecryptfs-utils \
     alacritty `# nice terminal emulator` \
     rclone rclone-browser `# syncer for google drive and other services` \
