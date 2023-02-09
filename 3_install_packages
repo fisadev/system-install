@@ -61,8 +61,6 @@ sudo apt install -y \
     xdotool `# dependency of the ulauncher emoji plugin` \
     fd-find `# nicer alternative to find` \
     ack-grep `# nicer alternative to grep, for code` \
-    postgresql-12 \
-    postgresql-server-dev-12 \
     pulseeffects `# equalizer and stuff` \
     ecryptfs-utils \
     alacritty `# nice terminal emulator` \

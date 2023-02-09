@@ -18,12 +18,6 @@ sudo adduser invitado
 sudo cp /home/fisa/devel/mios/scripts/read_only_shared_tmux_attach /home/invitado/conectar
 sudo chown invitado:invitado /home/invitado/conectar
 
-# create postgres user
-echo " >>>> POSTGRES USER"
-sudo -u postgres createuser fisa -s -P
-# default postgres database for my user
-createdb fisa
-
 # add my ssh key
 echo " >>>> SSH KEY"
 ssh-add /home/fisa/.ssh/fisa_ssh_3
