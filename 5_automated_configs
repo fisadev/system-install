@@ -38,14 +38,15 @@ ln -s /home/fisa/devel/mios/dotfiles/config.fish /home/fisa/.config/fish/
 ln -s /home/fisa/devel/mios/dotfiles/fish_prompt.fish /home/fisa/.config/fish/functions/
 ln -s /home/fisa/devel/mios/dotfiles/fish_right_prompt.fish /home/fisa/.config/fish/functions/
 
-# alacritty and git configs
-ln -s /home/fisa/devel/mios/dotfiles/.alacritty.yml /home/fisa/
-ln -s /home/fisa/devel/mios/dotfiles/.gitconfig /home/fisa/
-
 # neovim config installation
 echo ">>>> NEOVIM CONFIGS"
 mkdir -p /home/fisa/.config/nvim
 ln -s /home/fisa/devel/fisa-vim-config/config.vim /home/fisa/.config/nvim/init.vim
+
+# other versioned configs
+ln -s /home/fisa/devel/mios/dotfiles/.alacritty.yml /home/fisa/
+ln -s /home/fisa/devel/mios/dotfiles/.gitconfig /home/fisa/
+ln -s /home/fisa/devel/fisa-tmux-config/.tmux.conf /home/fisa/
 
 # argos gnome shell extension scripts
 ln -s /home/fisa/devel/mios/argos /home/fisa/.config/
