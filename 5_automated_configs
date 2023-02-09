@@ -38,8 +38,9 @@ ln -s /home/fisa/devel/mios/dotfiles/config.fish /home/fisa/.config/fish/
 ln -s /home/fisa/devel/mios/dotfiles/fish_prompt.fish /home/fisa/.config/fish/functions/
 ln -s /home/fisa/devel/mios/dotfiles/fish_right_prompt.fish /home/fisa/.config/fish/functions/
 
-# alacritty config
+# alacritty and git configs
 ln -s /home/fisa/devel/mios/dotfiles/.alacritty.yml /home/fisa/
+ln -s /home/fisa/devel/mios/dotfiles/.gitconfig /home/fisa/
 
 # neovim config installation
 echo ">>>> NEOVIM CONFIGS"
