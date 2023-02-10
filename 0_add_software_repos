@@ -22,3 +22,6 @@ sudo add-apt-repository ppa:agornostal/ulauncher -n -y
 
 echo "Alacritty for Ubuntu 20.04"
 sudo add-apt-repository ppa:mmstick76/alacritty -n -y
+
+echo "Better diff tool used with git"
+sudo add-apt-repository ppa:aos1/diff-so-fancy -n -y
