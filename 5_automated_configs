@@ -41,6 +41,9 @@ ln -s /home/fisa/devel/mios/dotfiles/.alacritty.yml /home/fisa/
 ln -s /home/fisa/devel/mios/dotfiles/.gitconfig /home/fisa/
 ln -s /home/fisa/devel/mios/dotfiles/.ssh/config /home/fisa/.ssh/
 ln -s /home/fisa/devel/fisa-tmux-config/.tmux.conf /home/fisa/
+ln -s /home/fisa/themes/gnome/installed /home/fisa/.themes
+ln -s /home/fisa/themes/icons/installed /home/fisa/.icons
+ln -s /home/fisa/themes/fonts/installed /home/fisa/.fonts
 
 # argos gnome shell extension scripts
 ln -s /home/fisa/devel/mios/argos /home/fisa/.config/
