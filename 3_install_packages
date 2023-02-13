@@ -67,6 +67,7 @@ sudo apt install -y \
     rclone rclone-browser `# syncer for google drive and other services` \
     solaar `# tool to pair and manage logitech unifying devices` \ 
     diff-so-fancy `# tool for nicer diffs in git, used in .gitconfig` \
+    barrier `# app to share mouse, keyboard and clipboard and merge screens between computers` \
     rename
 
 
