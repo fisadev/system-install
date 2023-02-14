@@ -9,7 +9,7 @@ python3 -m pip install --user \
     ffind \
     percol `# cli interactive filter for output of programs` \
     speedtest-cli \
-    youtube-dl \
+    yt-dlp `# better than youtube-dl which was abandoned` \
     httpie \
     pgcli \
     pythonpy \
