@@ -75,3 +75,10 @@ sudo ln -s /home/fisa/apps/ctop /usr/local/bin/ctop
 
 # install argos extension for gnome 3.36 on ubuntu 20.04 (the one in the official website is broken)
 ln -s /home/fisa/apps/argos-gnome-3.36/argos@pew.worldwidemann.com/ /home/fisa/.local/share/gnome-shell/extensions/
+
+# docker configs and permissions
+sudo groupadd docker
+sudo usermod -aG docker fisa
+# and configure docker so it uses the home dir for data
+sudo cp /home/fisa/devel/mios/dotfiles/etc_docker/daemon.json /etc/docker/daemon.json
+sudo chown root:root /etc/docker/daemon.json
