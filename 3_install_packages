@@ -68,10 +68,8 @@ sudo apt install -y \
     solaar `# tool to pair and manage logitech unifying devices` \ 
     diff-so-fancy `# tool for nicer diffs in git, used in .gitconfig` \
     barrier `# app to share mouse, keyboard and clipboard and merge screens between computers` \
+    docker.io \
     rename
-
-# snap packages
-sudo snap install docker
 
 # far better ls
 sudo apt install /home/fisa/apps/installers/lsd_0.20.1_amd64.deb
