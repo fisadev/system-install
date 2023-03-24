@@ -39,3 +39,5 @@ sudo apt install -y /home/fisa/apps/installers/astrodmx-capture_0.50.11_amd64.de
 
 # nice interactive json visualization tool
 sudo npm install -g fx
+
+snap install btop `# super nice top`

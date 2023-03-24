@@ -69,6 +69,7 @@ sudo apt install -y \
     diff-so-fancy `# tool for nicer diffs in git, used in .gitconfig` \
     barrier `# app to share mouse, keyboard and clipboard and merge screens between computers` \
     docker.io \
+    ranger `# command line file browser` \
     rename
 
 # far better ls
