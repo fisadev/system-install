@@ -46,8 +46,6 @@ ln -s /home/fisa/themes/icons/installed /home/fisa/.icons
 ln -s /home/fisa/themes/fonts/installed /home/fisa/.fonts
 mkdir -p /home/fisa/.config/ranger
 ln -s /home/fisa/devel/mios/dotfiles/ranger_rc.conf /home/fisa/.config/ranger/rc.conf
-mkdir -p /home/fisa/.config/kitty/
-ln -s /home/fisa/devel/mios/dotfiles/kitty.conf /home/fisa/.config/kitty/kitty.conf
 
 # argos gnome shell extension scripts
 ln -s /home/fisa/devel/mios/argos /home/fisa/.config/
