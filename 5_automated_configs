@@ -39,6 +39,7 @@ ln -s /home/fisa/devel/fisa-vim-config/config.vim /home/fisa/.config/nvim/init.v
 # other versioned configs
 ln -s /home/fisa/devel/mios/dotfiles/.alacritty.yml /home/fisa/
 ln -s /home/fisa/devel/mios/dotfiles/.gitconfig /home/fisa/
+ln -s /home/fisa/devel/mios/dotfiles/.tigrc /home/fisa/
 ln -s /home/fisa/devel/mios/dotfiles/.ssh/config /home/fisa/.ssh/
 ln -s /home/fisa/devel/fisa-tmux-config/.tmux.conf /home/fisa/
 ln -s /home/fisa/themes/gnome/installed /home/fisa/.themes
