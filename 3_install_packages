@@ -3,8 +3,6 @@ set -e
 
 sudo apt install -y \
     git \
-    git-core \
-    git-doc \
     gitg \
     tig \
     tk \
@@ -32,13 +30,12 @@ sudo apt install -y \
     python3-venv \
     run-one \
     nocache \
-    expect-dev `# tool to automate other cli tools (inputs, etc)` \
+    expect `# tool to automate other cli tools (inputs, etc)` \
     curl \
     libnet-dbus-perl `# required by the system monitor gnome-shell extension` \
     gnome-session \
-    gnome-tweak-tool \
+    gnome-tweaks \
     cmatrix \
-    pgtop \
     nfs-common \
     fdupes \
     graphviz \
@@ -59,21 +56,16 @@ sudo apt install -y \
     rofi `# dependency of the ulauncher emoji plugin` \
     xdotool `# dependency of the ulauncher emoji plugin` \
     fd-find `# nicer alternative to find` \
-    ack-grep `# nicer alternative to grep, for code` \
-    pulseeffects `# equalizer and stuff` \
+    ack `# nicer alternative to grep, for code` \
     ecryptfs-utils \
     alacritty `# nice terminal emulator` \
     rclone rclone-browser `# syncer for google drive and other services` \
-    solaar `# tool to pair and manage logitech unifying devices` \ 
+    solaar `# tool to pair and manage logitech unifying devices` \
     diff-so-fancy `# tool for nicer diffs in git, used in .gitconfig` \
     barrier `# app to share mouse, keyboard and clipboard and merge screens between computers` \
     docker.io \
     ranger `# command line file browser` \
+    lsd `# far better ls` \
+    tlp tlp-rdw `# improve battery life and heating` \
+    libfuse2 `# needed to run app images like the one of neovim` \
     rename
-
-# far better ls
-sudo apt install /home/fisa/apps/installers/lsd_0.20.1_amd64.deb
-
-
-# No longer present, but want:
-# v4l2ucp `# powerful webcam control panel` \
