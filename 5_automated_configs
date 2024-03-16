@@ -71,3 +71,7 @@ sudo chown root:root /etc/docker/daemon.json
 
 # enable tlp for better battery and heating management
 sudo tlp start
+
+# import the gpg key
+echo " >>>> GPG KEY"
+gpg --import /home/fisa/keys/fisa_gpg_3.priv.asc
