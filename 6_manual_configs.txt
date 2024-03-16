@@ -11,6 +11,7 @@ Finish the installation by doing this things manually:
    * Chrome/firefox (user/sync)
    * User (avatar)
    * Gnome settings app:
+       * Touchpad settings
        * Sources for gnome shell autocomplete, under Search
        * Disable recent files under Privacy/Usage & History
  * Ulauncher (plugins from 7_ulauncher_extensions.txt, theme, etc, remember to set shortcut to something I don't really use)
