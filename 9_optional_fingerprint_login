@@ -1,6 +1,0 @@
-Edit /etc/pam.d/common-auth and add, before other lines:
-
-auth required pam_env.so
-auth sufficient pam_fprintd.so
-auth sufficient pam_unix.so try_first_pass likeauth nullok
-auth required pam_deny.so

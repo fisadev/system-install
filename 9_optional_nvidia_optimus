@@ -1,9 +1,0 @@
-0. Add drivers PPA: 
-
-    sudo add-apt-repository ppa:graphics-drivers/ppa
-
-1. Install video and optimus drivers: 
-
-    sudo apt install nvidia-driver-450 nvidia-prime
-
-2. Reboot your machine and login.
