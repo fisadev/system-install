@@ -68,4 +68,5 @@ sudo apt install -y \
     lsd `# far better ls` \
     tlp tlp-rdw `# improve battery life and heating` \
     libfuse2 `# needed to run app images like the one of neovim` \
+    lm-sensors `# temperature and other sensors reader` \
     rename
