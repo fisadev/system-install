@@ -41,7 +41,6 @@ sudo apt install -y \
     pgtop \
     nfs-common \
     fdupes \
-    nginx \
     graphviz \
     arc-theme \
     gnupg \

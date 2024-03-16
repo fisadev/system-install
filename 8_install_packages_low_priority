@@ -32,6 +32,8 @@ sudo apt install -y \
      ttyrec \
      ttygif \
      ffmpeg `# video converter and more` \
+     btop `# super nice top` \
+     nginx \
      npm
 
 # telescope usb cam capture tool
@@ -39,5 +41,3 @@ sudo apt install -y /home/fisa/apps/installers/astrodmx-capture_0.50.11_amd64.de
 
 # nice interactive json visualization tool
 sudo npm install -g fx
-
-snap install btop `# super nice top`
