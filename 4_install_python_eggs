@@ -2,25 +2,27 @@
 set -e
 
 # system tools
+pipx install student-repos-handler
+pipx install pinggraph
+pipx install glances
+pipx install ffind
+pipx install percol  # cli interactive filter for output of programs
+pipx install speedtest-cli
+pipx install yt-dlp  # better than youtube-dl which was abandoned
+pipx install httpie
+pipx install pgcli
+pipx install pythonpy
+pipx install eg
+pipx install magic-wormhole
+pipx install icdiff  # nice two columns diffs in the terminal
+pipx install fades
+pipx install shell-gpt
+pipx install ohmu  # disk usage details from a folder, similar to gdmap
+
+# fisa vim config dependencies, these really need to be installed as libs at user level
 python3 -m pip install --user \
-    pinggraph \
-    glances \
-    ffind \
-    percol `# cli interactive filter for output of programs` \
-    speedtest-cli \
-    yt-dlp `# better than youtube-dl which was abandoned` \
-    httpie \
-    pgcli \
-    pythonpy \
-    eg \
-    magic-wormhole \
-    ohmu `# disk usage details from a folder, similar to gdmap` \
     pynvim `# fisa nvim config dependency` \
     flake8 `# fisa nvim config dependency` \
     pylint `# fisa nvim config dependency` \
     isort `# fisa nvim config dependency` \
     jedi `# fisa nvim config dependency` \
-    icdiff `# nice two columns diffs in the terminal` \
-    fades \
-    shell-gpt
-

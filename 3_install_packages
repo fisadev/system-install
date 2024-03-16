@@ -69,4 +69,5 @@ sudo apt install -y \
     tlp tlp-rdw `# improve battery life and heating` \
     libfuse2 `# needed to run app images like the one of neovim` \
     lm-sensors `# temperature and other sensors reader` \
+    pipx `# to install python executable tools in hidden venvs` \
     rename
