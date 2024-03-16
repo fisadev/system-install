@@ -3,7 +3,6 @@ set -e
 
 # system tools
 python3 -m pip install --user \
-    ngxtop \
     pinggraph \
     glances \
     ffind \
@@ -15,8 +14,6 @@ python3 -m pip install --user \
     pythonpy \
     eg \
     magic-wormhole \
-    lice `# generate licence files for oss projects` \
-    vanity `# pipy downloads stats for packages` \
     ohmu `# disk usage details from a folder, similar to gdmap` \
     pynvim `# fisa nvim config dependency` \
     flake8 `# fisa nvim config dependency` \
