@@ -2,22 +2,16 @@
 set -e
 
 sudo apt install -y \
-     mercurial \
      gource \
      vlc \
      cheese \
-     pinta \
      virtualbox \
      sqlitebrowser \
-     easytag \
      rst2pdf \
-     inkscape \
      gimp \
-     zeal \
      simplescreenrecorder \
      vinagre `# vnc client` \
      guvcview `# show webcam as a clean window, and more` \
-     openshot \
      flameshot `# screenshots tool` \
      stellarium \
      wine-stable \
