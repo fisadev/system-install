@@ -20,7 +20,7 @@ pipx install shell-gpt
 pipx install ohmu  # disk usage details from a folder, similar to gdmap
 
 # fisa vim config dependencies, these really need to be installed as libs at user level
-python3 -m pip install --user \
+python3 -m pip install --user --break-system-packages \
     pynvim `# fisa nvim config dependency` \
     flake8 `# fisa nvim config dependency` \
     pylint `# fisa nvim config dependency` \
