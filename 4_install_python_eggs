@@ -21,7 +21,6 @@ python3 -m pip install --user \
     isort `# fisa nvim config dependency` \
     jedi `# fisa nvim config dependency` \
     icdiff `# nice two columns diffs in the terminal` \
-    termcolor `# dependency of repos tool` \
     fades \
     shell-gpt
 
