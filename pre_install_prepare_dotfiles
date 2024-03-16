@@ -3,129 +3,82 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
-
-# folders and files that I'm sure I don't want to carry between installs
-remove = [
-    ".azure",
-    ".bashrc",
-    ".cargo",
-    ".chirp.ini",
-    ".cpanm",
-    ".docker",
-    ".dosbox",
-    ".fades",
-    ".fontconfig",
-    ".gksu.lock",
-    ".hgk",
-    ".httpie",
-    ".ipynb_checkpoints",
-    ".ipython",
-    ".jupyter",
-    ".keybase-installer",
-    ".kube",
-    ".mono",
-    ".mypy_cache",
-    ".nano",
-    ".npm",
-    ".nv",
-    ".openshot",
-    ".pip",
-    ".pyenv",
-    ".pylint.d",
-    ".pytest_cache",
-    ".pyxbld",
-    ".recently-used",
-    ".Skype",
-    ".status_cache",
-    ".sudo_as_admin_successful",
-    ".wget-hsts",
-    ".wine",
-    ".xsel.log",
-    ".zoom",
-    ".zshrc",
-    ".weechat",
-    # not thaat sure
-    ".fzf",
-    ".fzf.bash",
-    ".fzf.zsh",
-    ".keras",
-    ".steam",
-    ".steampath",
-    ".steampid",
-    ".stellarium",
-]
+# this script is meant to be used from a new "fresh" home dir in the new 
+# machine, while having a clone of the old home in an "old_home" dir
 
 # folders and files that I want to carry
-keep = [
-    ".fish_history",
-    ".bash_history",
-    ".gnupg",
-    ".lesshst",
-    ".nis214",
-    ".micropython.history",
-    ".node_repl_history",
-    ".octave_hist",
-    ".password-store",
-    ".pgcli-history",
-    ".psql_history",
-    ".python_history",
-    ".rediscli_history",
-    ".selected_editor",
-    ".sqlite_history",
-    ".ssh",
-]
+to_keep = set("""
+    .bash_history
+    .gnupg
+    .lesshst
+    .micropython.history
+    .node_repl_history
+    .octave_hist
+    .password-store
+    .pgcli-history
+    .python_history
+    .selected_editor
+    .ssh
+    .fonts
+    .themes
+    .icons
+    .gitconfig
+    .psqlrc
+    .tmux.conf
+    .xbindkeysrc
+    .alacritty.yml
+    .arduinoIDE
+    .tigrc
+""".split())
 
-# my symlinks
-symlinks = [
-    ".fonts",
-    ".themes",
-    ".icons",
-    ".gitconfig",
-    ".psqlrc",
-    ".tmux.conf",
-    ".xbindkeysrc",
-    ".alacritty.yml",
-]
+new_home_path = Path(".").absolute()
+old_home_path = new_home_path / "old_home"
+backup_path = new_home_path / f"bkp_dotfiles_{datetime.now().strftime('%Y%m%d')}"
 
-base_path = Path(".").absolute()
-print("Working over", base_path, ", is that ok? (y/n)")
+print("Working over", new_home_path, "as the new home and", old_home_path,
+      "as the old home from which to port things, is that ok? (y/n)")
 if input() != "y":
     print("aborted")
     sys.exit()
 
-backup_path = base_path / "backup_dotfiles_{}".format(datetime.now().strftime("%Y%m%d"))
-backup_path.mkdir()
-
 print("Unwanted dotfiles will be moved to", backup_path)
+if not backup_path.exists():
+    backup_path.mkdir()
 
-for name in remove:
-    current_path = base_path / name
-    new_path = backup_path / name
-    if current_path.exists():
-        print("Moving unwanted", name)
-        current_path.rename(new_path)
-    else:
-        print("Unwanted", name, "not present, ignoring")
+backed_up = []
+ported = []
 
-all_things_to_keep = (
-    [(name, False) for name in keep] +
-    [(name, True) for name in symlinks]
-)
+for old_path in old_home_path.iterdir():
+    if old_path.name.startswith("."):
+        # a dotfile! decide what to do
+        name = old_path.name
 
-for name, is_symlink in all_things_to_keep:
-    current_path = base_path / name
-    if not current_path.exists():
-        print("WARNING!! Wanted", name, "not present!")
-    elif is_symlink and not current_path.is_symlink():
-        print("WARNING!! Wanted symlink", name, "is not actually a symlink!")
+        if name in to_keep:
+            new_path = new_home_path / name
+            if not new_path.exists():
+                old_path.rename(new_path)
+                to_keep.remove(name)
+                ported.append(name)
+        else:
+            new_path = backup_path / name
+            old_path.rename(new_path)
+            backed_up.append(name)
 
-all_known_dotfiles = set(remove + keep + symlinks)
+print()
+if ported:
+    print("These were ported to the new home:")
+    print(*ported, sep=", ")
+else:
+    print("WARNING!! No dot files/dirs were ported to the new home!!!")
 
-decide_path = backup_path / "new_unknown_things"
-decide_path.mkdir()
+if to_keep:
+    print()
+    print("WARNING!! These were listed as things to keep, but weren't found in the old home:")
+    print(*to_keep, sep=", ")
 
-for thing_path in base_path.iterdir():
-    if thing_path.name.startswith(".") and thing_path.name not in all_known_dotfiles:
-        print("WARNING!! Decide what to do with unknown dotfile", thing_path.name, "(moved to", decide_path, ")")
-        new_path = decide_path / thing_path.name
-        thing_path.rename(new_path)
+print()
+if backed_up:
+    print("These were backed up, REVIEW if you don't need to port them!!!")
+    print(*backed_up, sep=", ")
+else:
+    print("WARNING!! No unknown files were backed up! That's really weird")
