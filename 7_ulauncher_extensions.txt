@@ -1,7 +1,5 @@
-https://github.com/skykooler/ulauncher-conversion (unit converter)
 https://github.com/zensoup/ulauncher-unicode (unicode character finder)
 https://github.com/Ulauncher/ulauncher-emoji (emoji finder)
-https://github.com/brpaz/ulauncher-statuspages (status pages)
 https://github.com/isacikgoz/ukill (kill process)
 https://github.com/fisadev/ulauncher-better-file-browser (better file browser)
 https://github.com/noam09/ulauncher-gnome-control-center (gnome settings)
