@@ -59,8 +59,9 @@ sudo usermod -a -G dialout fisa
 # add symlink for ctop binary
 sudo ln -s /home/fisa/apps/ctop /usr/local/bin/ctop
 
-# install argos extension for gnome 3.36 on ubuntu 20.04 (the one in the official website is broken)
-ln -s /home/fisa/apps/argos-gnome-3.36/argos@pew.worldwidemann.com/ /home/fisa/.local/share/gnome-shell/extensions/
+# install argos extension for gnome (the one in the official website is broken)
+mkdir -p /home/fisa/.local/share/gnome-shell/extensions
+ln -s /home/fisa/apps/argos/argos@pew.worldwidemann.com/ /home/fisa/.local/share/gnome-shell/extensions/
 
 # docker configs and permissions
 sudo groupadd docker
