@@ -63,7 +63,6 @@ sudo apt install -y \
     solaar `# tool to pair and manage logitech unifying devices` \
     diff-so-fancy `# tool for nicer diffs in git, used in .gitconfig` \
     barrier `# app to share mouse, keyboard and clipboard and merge screens between computers` \
-    docker.io \
     ranger `# command line file browser` \
     lsd `# far better ls` \
     tlp tlp-rdw `# improve battery life and heating` \
