@@ -11,7 +11,7 @@ sudo apt install -y \
     openssh-server \
     vim \
     neovim \
-    exuberant-ctags \
+    universal-ctags \
     gparted \
     gdmap \
     htop \
