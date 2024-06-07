@@ -17,6 +17,7 @@ pipx install magic-wormhole
 pipx install icdiff  # nice two columns diffs in the terminal
 pipx install fades
 pipx install shell-gpt
+pipx install twisted  # required for the "serve" alias
 
 # fisa vim config dependencies, these really need to be installed as libs at user level
 python3 -m pip install --user --break-system-packages \
