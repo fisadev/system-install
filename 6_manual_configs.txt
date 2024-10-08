@@ -6,7 +6,7 @@ Finish the installation by doing this things manually:
       AllowUsers fisa invitado
    then restart the ssh service
  * Configure settings for:
-   * Gnome (wallpaper, themes, fonts, window buttons, behaviour, favorite apps, some of them from gnome tweak tool)
+   * Gnome (wallpaper, themes, fonts (Exo right now), window buttons, behaviour, favorite apps, some of them from gnome tweak tool)
    * Gnome-shell extensions listed in gnome-shell-extensions.html
    * Chrome/firefox (user/sync)
    * User (avatar)
