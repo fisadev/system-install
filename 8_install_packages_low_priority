@@ -28,6 +28,7 @@ sudo apt install -y \
      ffmpeg `# video converter and more` \
      btop `# super nice top` \
      nginx \
+     usb-creator-gtk `# startup disk creator` \
      npm
 
 # telescope usb cam capture tool
