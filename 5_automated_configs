@@ -69,3 +69,6 @@ sudo tlp start
 # import the gpg key
 echo " >>>> GPG KEY"
 gpg --import /home/fisa/keys/fisa_gpg_3.priv.asc
+
+# connect firefox icon theme with the vimix icon theme, so it uses the cursor theme I like
+sudo snap connect firefox:icon-themes vimix-themes:icon-themes

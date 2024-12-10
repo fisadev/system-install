@@ -70,3 +70,5 @@ sudo apt install -y \
     lm-sensors `# temperature and other sensors reader` \
     pipx `# to install python executable tools in hidden venvs` \
     rename
+
+sudo snap install vimix-themes  # only needed to be able to change snap-firefox icon theme 
