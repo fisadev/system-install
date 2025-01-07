@@ -29,6 +29,7 @@ sudo apt install -y \
      btop `# super nice top` \
      nginx \
      usb-creator-gtk `# startup disk creator` \
+     android-tools-adb scrcpy  `# both to use the phone as webcam` \
      npm
 
 # telescope usb cam capture tool
