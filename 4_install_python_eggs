@@ -2,27 +2,23 @@
 set -e
 
 # system tools
-pipx install student-repos-handler
-pipx install pinggraph
-pipx install glances
-pipx install ffind
-pipx install percol  # cli interactive filter for output of programs
-pipx install speedtest-cli
-pipx install yt-dlp  # better than youtube-dl which was abandoned
-pipx install httpie
-pipx install pgcli
-pipx install pythonpy
-pipx install eg
-pipx install magic-wormhole
-pipx install icdiff  # nice two columns diffs in the terminal
-pipx install fades
-pipx install shell-gpt
-pipx install twisted  # required for the "serve" alias
+uv tool install student-repos-handler
+uv tool install pinggraph
+uv tool install glances
+uv tool install ffind
+uv tool install percol  # cli interactive filter for output of programs
+uv tool install speedtest-cli
+uv tool install yt-dlp[default,curl-cffi]  # better than youtube-dl which was abandoned
+uv tool install httpie
+uv tool install pgcli
+uv tool install pythonpy
+uv tool install eg
+uv tool install magic-wormhole
+uv tool install icdiff  # nice two columns diffs in the terminal
+uv tool install fades
+uv tool install shell-gpt
+uv tool install twisted  # required for the "serve" alias
 
 # fisa vim config dependencies, these really need to be installed as libs at user level
-python3 -m pip install --user --break-system-packages \
-    pynvim `# fisa nvim config dependency` \
-    flake8 `# fisa nvim config dependency` \
-    pylint `# fisa nvim config dependency` \
-    isort `# fisa nvim config dependency` \
-    jedi `# fisa nvim config dependency` \
+python3 -m pip install --user --break-system-packages pynvim flake8 pylint isort jedi httpx>=0.23.3 requests jinja2
+    
