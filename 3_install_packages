@@ -62,7 +62,6 @@ sudo apt install -y \
     rclone rclone-browser `# syncer for google drive and other services` \
     solaar `# tool to pair and manage logitech unifying devices` \
     diff-so-fancy `# tool for nicer diffs in git, used in .gitconfig` \
-    barrier `# app to share mouse, keyboard and clipboard and merge screens between computers` \
     ranger `# command line file browser` \
     lsd `# far better ls` \
     tlp tlp-rdw `# improve battery life and heating` \
@@ -72,3 +71,7 @@ sudo apt install -y \
     rename
 
 sudo snap install vimix-themes  # only needed to be able to change snap-firefox icon theme 
+
+# add flathub repos and then install packages from it
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+flatpak install flathub org.deskflow.deskflow -y  # app to share mouse, keyboard and clipboard and merge screens between computers
