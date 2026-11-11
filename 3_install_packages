@@ -51,10 +51,6 @@ sudo apt install -y \
     pass \
     sshfs `# to mounth file systems through ssh` \
     flatpak \
-    ulauncher `# nifty little launcher app` \
-    units `# unit converter, also used by the units ulauncher plugin` \
-    rofi `# dependency of the ulauncher emoji plugin` \
-    xdotool `# dependency of the ulauncher emoji plugin` \
     fd-find `# nicer alternative to find` \
     ack `# nicer alternative to grep, for code` \
     ecryptfs-utils \

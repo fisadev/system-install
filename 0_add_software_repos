@@ -11,9 +11,6 @@ sudo apt install curl -y
 echo "Stellarium"
 sudo add-apt-repository ppa:stellarium/stellarium-releases -n -y
 
-echo "Ulauncher app launcher"
-sudo add-apt-repository ppa:agornostal/ulauncher -n -y
-
 echo "Alacritty for Ubuntu"
 sudo add-apt-repository ppa:aslatter/ppa -n -y
 
