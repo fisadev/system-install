@@ -12,7 +12,6 @@ sudo apt install -y \
      simplescreenrecorder \
      vinagre `# vnc client` \
      guvcview `# show webcam as a clean window, and more` \
-     flameshot `# screenshots tool` \
      stellarium \
      wine-stable \
      v4l-utils `# package to configure params of webcam` \
