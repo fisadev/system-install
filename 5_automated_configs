@@ -39,6 +39,8 @@ ln -s /home/fisa/devel/fisa-vim-config/config.vim /home/fisa/.config/nvim/init.v
 
 # enable tap-to-click
 gsettings set org.gnome.desktop.peripherals.touchpad tap-to-click true
+# disable window animations
+gsettings set org.gnome.desktop.interface enable-animations false
 
 # add ability to unmount cyrene/tero sshfs without sudo password
 echo "fisa ALL=NOPASSWD: /bin/umount /home/fisa/servers/tero_cyrene/" | sudo tee /etc/sudoers.d/fisa_umount_cyrene_tero
